@@ -254,15 +254,15 @@
           "enableStreamingIngest": false,
           "enableDoubleEncryption": false,
           "trustedExternalTenants": [],
-          "workspaceUid": "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaceName'))]"
+          "workspaceUid": "[reference(resourceId('Microsoft.Synapse/workspaces', parameters('workspaceName'))).workspaceUID]"
         }
       }
     ],
     "outputs": {
-      "Synapse-Workspace-ResourceID": {
+      "workspaceid": {
       "type": "string",
-      "value":"[resourceId('Microsoft.Synapse/workspaces', parameters('workspaceName'))]"
+      "value":"[reference(resourceId('Microsoft.Synapse/workspaces', parameters('workspaceName'))).workspaceUID]"
       }
-      }
+    }
   }
   
