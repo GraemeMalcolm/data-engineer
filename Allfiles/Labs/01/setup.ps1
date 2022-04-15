@@ -25,7 +25,7 @@ while ($complexPassword -ne 1)
     if(($SqlPassword -cmatch '[a-z]') -and ($SqlPassword -cmatch '[A-Z]') -and ($SqlPassword -match '\d') -and ($SqlPassword.length -ge 8) -and ($SqlPassword -match '!|@|#|%|^|&|$'))
     {
         $complexPassword = 1
-	  Write-Output "Password $SqlPassword accepted. Make sure you remember this!"
+	    Write-Output "Password $SqlPassword accepted. Make sure you remember this!"
     }
     else
     {
@@ -41,9 +41,9 @@ Register-AzResourceProvider -ProviderNamespace Microsoft.Storage
 Register-AzResourceProvider -ProviderNamespace Microsoft.Compute
 
 # Generate unique random suffix
-[string]$suffix =  -join ((48..57) + (97..122) | Get-Random -Count 7 | % {[char]$_})
+[string]$suffix =  -join ((48..57) + (97..122) | Get-Random -Count 7 | % {[char]$_}).ToLower()
 Write-Host "Your randomly-generated suffix for Azure resources is $suffix"
-$resourceGroupName = "dp500-$suffix"
+$resourceGroupName = "dp000-$suffix"
 
 # Choose a random region
 Write-Host "Finding an available region. This may take several minutes...";

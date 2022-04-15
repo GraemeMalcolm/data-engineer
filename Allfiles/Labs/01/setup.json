@@ -51,7 +51,7 @@
       "sparkAutoPauseEnabled": "true",
       "sparkAutoPauseDelayInMinutes": "15",
       "sparkVersion": "2.4",
-      "kustoPoolName": "ADXPool"
+      "kustoPoolName": "[concat('adxpool', parameters('uniqueSuffix'))]"
     },
     "resources": [
       {
