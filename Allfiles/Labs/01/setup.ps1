@@ -3,7 +3,6 @@ write-host "Starting script at $(Get-Date)"
 
 Install-Module -Name Az.Synapse
 
-$sqlDatabaseName = "sqldw"
 $sqlUser = "SQLUser"
 
 # Prompt user for a password for the SQL Database
@@ -86,6 +85,7 @@ New-AzResourceGroup -Name $resourceGroupName -Location $Region | Out-Null
 
 # Create Synapse workspace
 $synapseWorkspace = "synapsews$suffix"
+$sqlDatabaseName = "sqlpool$suffix"
 
 write-host "Creating $synapseWorkspace Synapse Analytics workspace in $resourceGroupName resource group..."
 New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
