@@ -37,7 +37,7 @@
       "location": "[resourceGroup().location]",
       "adlsStorageAccountName": "[concat('datalake', parameters('uniqueSuffix'))]",
       "defaultDataLakeStorageFilesystemName": "[concat('filesystem', parameters('uniqueSuffix'))]",
-      "sparkComputeName": "[concat('sparkpool', parameters('uniqueSuffix'))]",
+      "sparkComputeName": "[concat('spark', parameters('uniqueSuffix'))]",
       "computeSubnetId": "",
       "sqlSKU": "DW100c",
       "storageBlobDataOwnerRoleID": "b7e6dc6d-f1e8-4753-8033-0f276bb0955b",
@@ -51,7 +51,7 @@
       "sparkAutoPauseEnabled": "true",
       "sparkAutoPauseDelayInMinutes": "15",
       "sparkVersion": "2.4",
-      "kustoPoolName": "[concat('adxpool', parameters('uniqueSuffix'))]"
+      "kustoPoolName": "[concat('adx', parameters('uniqueSuffix'))]"
     },
     "resources": [
       {
