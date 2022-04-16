@@ -31,6 +31,12 @@
         "metadata": {
           "description": "Password for SQL User"
         }
+      },
+        "adxPoolName": {
+          "type": "String",
+          "metadata": {
+            "description": "Name for Data Explorer pool"
+          }
       }
     },
     "variables": {
@@ -50,8 +56,7 @@
       "sparkNodeSize": "Small",
       "sparkAutoPauseEnabled": "true",
       "sparkAutoPauseDelayInMinutes": "15",
-      "sparkVersion": "2.4",
-      "kustoPoolName": "[concat('adx', parameters('uniqueSuffix'))]"
+      "sparkVersion": "2.4"
     },
     "resources": [
       {
@@ -239,7 +244,7 @@
       {
         "type": "Microsoft.Synapse/workspaces/kustoPools",
         "apiVersion": "2021-06-01-preview",
-        "name": "[concat(parameters('workspaceName'), '/', variables('kustoPoolName'))]",
+        "name": "[concat(parameters('workspaceName'), '/', parameters('adxPoolName'))]",
         "location": "[variables('location')]",
         "dependsOn": [
           "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaceName'))]"

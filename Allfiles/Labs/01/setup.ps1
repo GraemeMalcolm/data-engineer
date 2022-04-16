@@ -86,6 +86,7 @@ New-AzResourceGroup -Name $resourceGroupName -Location $Region | Out-Null
 # Create Synapse workspace
 $synapseWorkspace = "synapse$suffix"
 $sqlDatabaseName = "sql$suffix"
+$adxpool = "adx$suffix"
 
 write-host "Creating $synapseWorkspace Synapse Analytics workspace in $resourceGroupName resource group..."
 New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
@@ -96,7 +97,12 @@ New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
   -sqlDatabaseName $sqlDatabaseName `
   -sqlUser $sqlUser `
   -sqlPassword $sqlPassword `
+  -adxPoolName $adxpool `
   -Force
+
+# Pause Data Explorer pool
+write-host "Pausing the $adxpool Data Explorer Pool..."
+Stop-AzSynapseKustoPool -Name $adxpool -ResourceGroupName $resourceGroupName -WorkspaceName $synapseWorkspace -NoWait
 
 # Create database
 write-host "Creating the $sqlDatabaseName database..."
