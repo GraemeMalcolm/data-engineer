@@ -4,10 +4,10 @@ write-host "Starting script at $(Get-Date)"
 Install-Module -Name Az.Synapse
 
 # Get current user details
-$subscriptionId = (Get-AzContext -WarningAction SilentlyContinue).Subscription.Id
-$userName = ((az ad signed-in-user show -WarningAction SilentlyContinue) | ConvertFrom-JSON).UserPrincipalName
+$subscriptionId = (Get-AzContext).Subscription.Id
+$userName = ((az ad signed-in-user show) | ConvertFrom-JSON).UserPrincipalName
 write-host "User Name: $userName"
-$userId = az ad signed-in-user show --query objectId -WarningAction SilentlyContinue -o tsv
+$userId = az ad signed-in-user show --query objectId -o tsv
 Write-Host "User ID: $userId"
 
 
@@ -117,7 +117,7 @@ Stop-AzSynapseKustoPool -Name $adxpool -ResourceGroupName $resourceGroupName -Wo
 
 
 # Add permission to the datalake to workspace
-$id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace -WarningAction SilentlyContinue).id
+$id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace).id
 New-AzRoleAssignment -Objectid $id -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 New-AzRoleAssignment -SignInName $userName -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 
