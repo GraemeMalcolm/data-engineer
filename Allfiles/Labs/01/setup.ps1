@@ -3,13 +3,6 @@ write-host "Starting script at $(Get-Date)"
 
 Install-Module -Name Az.Synapse
 
-# Get ID of the current user (running this script)
-$subscriptionId = (Get-AzContext).Subscription.Id
-$userName = ((az ad signed-in-user show) | ConvertFrom-JSON).UserPrincipalName
-write-host "User Name: $userName"
-$userId = az ad signed-in-user show --query objectId -o tsv
-Write-Host "User ID: $userId"
-
 
 # Prompt user for a password for the SQL Database
 $sqlUser = "SQLUser"
@@ -92,34 +85,33 @@ New-AzResourceGroup -Name $resourceGroupName -Location $Region | Out-Null
 
 # Create Synapse workspace
 $synapseWorkspace = "synapse$suffix"
+$dataLakeAccountName = "datalake$suffix"
+$sparkPool = "spark$suffix"
 $sqlDatabaseName = "sql$suffix"
 $adxpool = "adx$suffix"
-$dataLakeAccountName = "datalake$suffix"
 
 write-host "Creating $synapseWorkspace Synapse Analytics workspace in $resourceGroupName resource group..."
 New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
   -TemplateFile "setup.json" `
   -Mode Complete `
   -workspaceName $synapseWorkspace `
-  -uniqueSuffix $suffix `
+  -dataLakeAccountName $dataLakeAccountName `
+  -sparkPoolName $sparkPool `
   -sqlDatabaseName $sqlDatabaseName `
   -sqlUser $sqlUser `
   -sqlPassword $sqlPassword `
   -adxPoolName $adxpool `
+  -uniqueSuffix $suffix `
   -Force
 
 # Pause Data Explorer pool
 write-host "Pausing the $adxpool Data Explorer Pool..."
 Stop-AzSynapseKustoPool -Name $adxpool -ResourceGroupName $resourceGroupName -WorkspaceName $synapseWorkspace -NoWait
 
-# Add the current userto Admin roles
-Write-Host "Granting $userName admin permissions..."
-Assign-SynapseRole -WorkspaceName $synapseWorkspace -RoleId "6e4bf58a-b8e1-4cc3-bbf9-d73143322b78" -PrincipalId $userId  # Workspace Admin
-Assign-SynapseRole -WorkspaceName $synapseWorkspace -RoleId "7af0c69a-a548-47d6-aea3-d00e69bd83aa" -PrincipalId $userId  # SQL Admin
-Assign-SynapseRole -WorkspaceName $synapseWorkspace -RoleId "c3a6d2f1-a26f-4810-9b0f-591308d5cbf1" -PrincipalId $userId  # Apache Spark Admin
 
-#add the permission to the datalake to workspace
-$id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace).id
+# Add permission to the datalake to workspace
+$subscriptionId = (Get-AzContext).Subscription.Id | Out-Null
+$id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace).id | Out-Null
 New-AzRoleAssignment -Objectid $id -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 New-AzRoleAssignment -SignInName $userName -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 
