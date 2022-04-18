@@ -109,7 +109,7 @@ Stop-AzSynapseKustoPool -Name $adxpool -ResourceGroupName $resourceGroupName -Wo
 
 # Make the current user and the Synspase service principal owners of the data lake blob store
 write-host "Granting permissions on the $dataLakeAccountName storage account..."
-write-host "(you can ignore any warmings!)"
+write-host "(you can ignore any warnings!)"
 $subscriptionId = (Get-AzContext).Subscription.Id
 $userName = ((az ad signed-in-user show) | ConvertFrom-JSON).UserPrincipalName
 $id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace).id
