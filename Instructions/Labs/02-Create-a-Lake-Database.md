@@ -50,3 +50,17 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
 ## Create a lake database
 
+A lake database is a type of database that you can define in your workspace, and work with using the built-in serverless SQL pool.
+
+1. After the deployment script has completed, in the Azure portal, go to the **dp000-*xxxxxxx*** resource group that it created, and notice that this resource group contains your Synapse workspace, a Storage account for your data lake, and an Apache Spark pool.
+2. Select your Synapse workspace, and in its **Overview** page, in **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
+3. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
+4. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account.
+5. On the **Data** page, switch back to the **Workspace** tab and note that there are no databases in your workspace.
+6. In the **+** menu, select **Lake database** to open a new pane in which you can design your database schema.
+7. In the **Properties** pane for the new database, change the **Name** to **RetailDB** and verify that the **Input folder** property is automatically updated to **files/RetailDB**. Leave the **Data format** as **Delimited Text** (you could also use *Parquet* format, and you can override the file format for individual tables - we'll use comma-delimited data in this exercise.)
+8. At the top of the **RetailDB** pane, select **Publish** to save the database so far.
+
+## Create a table from a database template
+
+... *more to come* ...
