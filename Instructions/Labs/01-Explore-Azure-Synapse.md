@@ -131,8 +131,7 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
     - **Max rows per file**: *Leave blank*
     - **File name prefix**: *Leave blank*
 10. On the **Settings** step, enter the following settings and then click **Next >**:
-    - **Task name**: 
-    
+    - **Task name**: Copy products
     - **Task description** Copy products data
     - **Fault tolerance**: *Leave blank*
     - **Enable logging**: <u>Un</u>selected
