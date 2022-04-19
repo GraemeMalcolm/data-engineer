@@ -88,8 +88,6 @@ New-AzResourceGroup -Name $resourceGroupName -Location $Region | Out-Null
 $synapseWorkspace = "synapse$suffix"
 $dataLakeAccountName = "datalake$suffix"
 $sparkPool = "spark$suffix"
-$sqlDatabaseName = "sql$suffix"
-$adxpool = "adx$suffix"
 
 write-host "Creating $synapseWorkspace Synapse Analytics workspace in $resourceGroupName resource group..."
 New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
@@ -98,16 +96,10 @@ New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
   -workspaceName $synapseWorkspace `
   -dataLakeAccountName $dataLakeAccountName `
   -sparkPoolName $sparkPool `
-  -sqlDatabaseName $sqlDatabaseName `
   -sqlUser $sqlUser `
   -sqlPassword $sqlPassword `
-  -adxPoolName $adxpool `
   -uniqueSuffix $suffix `
   -Force
-
-# Pause Data Explorer pool
-write-host "Pausing the $adxpool Data Explorer Pool..."
-Stop-AzSynapseKustoPool -Name $adxpool -ResourceGroupName $resourceGroupName -WorkspaceName $synapseWorkspace -NoWait
 
 # Make the current user and the Synapse service principal owners of the data lake blob store
 write-host "Granting permissions on the $dataLakeAccountName storage account..."
@@ -118,23 +110,5 @@ $id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace).id
 New-AzRoleAssignment -Objectid $id -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 New-AzRoleAssignment -SignInName $userName -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 
-
-# Create database
-write-host "Creating the $sqlDatabaseName database..."
-sqlcmd -S "$synapseWorkspace.sql.azuresynapse.net" -U $sqlUser -P $sqlPassword -d $sqlDatabaseName -I -i setup.sql
-
-# Load data
-write-host "Loading data..."
-Get-ChildItem "./data/*.txt" -File | Foreach-Object {
-    write-host ""
-    $file = $_.FullName
-    Write-Host "$file"
-    $table = $_.Name.Replace(".txt","")
-    bcp dbo.$table in $file -S "$synapseWorkspace.sql.azuresynapse.net" -U $sqlUser -P $sqlPassword -d $sqlDatabaseName -f $file.Replace("txt", "fmt") -q -k -E -b 5000
-}
-
-# Pause SQL Pool
-write-host "Pausing the $sqlDatabaseName SQL Pool..."
-Suspend-AzSynapseSqlPool -WorkspaceName $synapseWorkspace -Name $sqlDatabaseName -AsJob
 
 write-host "Script completed at $(Get-Date)"
