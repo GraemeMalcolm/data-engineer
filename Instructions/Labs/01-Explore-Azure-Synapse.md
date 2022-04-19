@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Explore Data with Azure Synapse Analytics'
+    title: 'Explore Azure Synapse Analytics'
     module: 'Module 1: Get Started with Data Engineering'
 ---
 
-# Explore Data with Azure Synapse Analytics
+# Explore Azure Synapse Analytics
 
 Azure Synapse Analytics provides a single, consolidated data analytics platform for end-to end data analytics. In this lab, you'll explore various ways to ingest and explore data. This lab is designed as a high-level overview of the various core capabilities of Azure Synapse Analytics; which you'll explore in more depth in later labs.
 
@@ -46,7 +46,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
     > **Note**: Be sure to remember this password!
 
-7. Wait for the script to complete - this typically takes around 15 minutes, but in some cases may take longer. While you are waiting, review the [What is Azure Synapse Analytics?](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is) article in the Azure Synapse Analytics documentation.
+7. Wait for the script to complete - this typically takes around 20 minutes, but in some cases may take longer. While you are waiting, review the [What is Azure Synapse Analytics?](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is) article in the Azure Synapse Analytics documentation.
 
 ## Explore Synapse Studio
 
@@ -107,7 +107,7 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
     - **Compression type**: None
 7. On the **Target** step, in the **Dataset** substep, select the following settings:
     - **Target type**: Azure Data Lake Storage Gen 2
-    = **Connection**: *Create a new connection with the following properties:*
+    - **Connection**: *Create a new connection with the following properties:*
         - **Name**: Product Files
         - **Description**: CSV product data
         - **Connect via integration runtime**: AutoResolveIntegrationRuntime
@@ -131,7 +131,8 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
     - **Max rows per file**: *Leave blank*
     - **File name prefix**: *Leave blank*
 10. On the **Settings** step, enter the following settings and then click **Next >**:
-    - **Task name**: Copy products
+    - **Task name**: 
+    
     - **Task description** Copy products data
     - **Fault tolerance**: *Leave blank*
     - **Enable logging**: <u>Un</u>selected
