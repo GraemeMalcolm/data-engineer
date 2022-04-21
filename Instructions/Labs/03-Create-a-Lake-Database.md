@@ -1,12 +1,12 @@
 ---
 lab:
     title: 'Analyze data in a lake database'
-    module: 'Module 2: Analyze data in a lake database'
+    module: 'Module 2: Analyze data in a data lake'
 ---
 
 # Analyze data in a lake database
 
-Azure Synapse Analytics enables you to combine the flexibility of file storage in a data lake with the structured schema and SQL querying capabilities of a relational database through the ability to create a *lake database*. A lake database is a relational database schema defined on a data lake file store that enables data storage to be separated from the compute used to query it, while providing the benefits of a structured schema that includes support for data types, relationships, and other features typically only found in relational database systems. Essentially, the lake database "overlays" a relational schema onto files in folders in the data lake.
+Azure Synapse Analytics enables you to combine the flexibility of file storage in a data lake with the structured schema and SQL querying capabilities of a relational database through the ability to create a *lake database*. A lake database is a relational database schema defined on a data lake file store that enables data storage to be separated from the compute used to query it. Lake databases the benefits of a structured schema that includes support for data types, relationships, and other features typically only found in relational database systems, with the flexibility of storing data in files that can be used independently of a relational database store. Essentially, the lake database "overlays" a relational schema onto files in folders in the data lake.
 
 This lab will take approximately **60** minutes to complete.
 
@@ -38,7 +38,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
 
     ```
-    cd dp-000/Allfiles/Labs/04
+    cd dp-000/Allfiles/Labs/03
     ./setup.ps1
     ```
 
@@ -96,7 +96,7 @@ Now that you have created a lake database, you can define its schema by creating
     | Phone | PK &#128454; | Customer phone | &#128505; | string | 256 |
 
 7. When you've added all of the columns, publish the database again to save the changes.
-8. In the **Data** pane on the left, switch back to the **Workspace** tab so you can see the **RetailDB** lake database. Then expand it and its **Tables** folder to see the newly created **Customer** table.
+8. In the **Data** pane on the left, switch back to the **Workspace** tab so you can see the **RetailDB** lake database. Then expand it and refresh its **Tables** folder to see the newly created **Customer** table.
 
 ### Load data into the table's storage path
 
