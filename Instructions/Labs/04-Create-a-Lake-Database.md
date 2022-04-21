@@ -38,7 +38,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 5. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.ps1** script it contains:
 
     ```
-    cd dp-000/Allfiles/Labs/02
+    cd dp-000/Allfiles/Labs/04
     ./setup.ps1
     ```
 
@@ -273,3 +273,4 @@ If you've finished exploring Azure Synapse Analytics, you should delete the reso
 5. Enter the **dp000-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
 
     After a few minutes, your Azure Synapse workspace and the managed workspace associated with it will be deleted.
+    

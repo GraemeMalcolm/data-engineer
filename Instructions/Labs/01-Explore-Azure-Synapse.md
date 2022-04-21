@@ -315,7 +315,7 @@ While SQL is a common language for querying structured datasets, many data analy
 
     ![Image showing category count chart view](./images/bar-chart.png)
 
-12. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to) **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the notebook name to **Explore products** and use the **Publish** button on the toolbar to save it.
+12. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the notebook name to **Explore products** and use the **Publish** button on the toolbar to save it.
 
 13. Close the notebook pane and stop the Spark session when prompted. Then view the **Develop** page to verify that the notebook has been saved.
 
@@ -341,7 +341,7 @@ So far you've seen some techniques for exploring and processing file-based data 
     ```
 
 7. Use the **&#9655; Run** button to run the modified query, which returns the quantity of each product sold by year and month.
-8. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to) **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the query name to **Aggregate product sales** and use the **Publish** button on the toolbar to save it.
+8. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the query name to **Aggregate product sales** and use the **Publish** button on the toolbar to save it.
 
 9. Close the query pane, and then view the **Develop** page to verify that the SQL script has been saved.
 
@@ -435,7 +435,7 @@ Azure Synapse Data Explorer provides a runtime that you can use to store and que
 
 9. Run the query and review the results, which should contain the average device value recorded between January 1st and January 7th 2022 in ascending order of device name.
 
-10. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to) **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the query name to **Explore device data** and use the **Publish** button on the toolbar to save it.
+10. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the query name to **Explore device data** and use the **Publish** button on the toolbar to save it.
 
 11. Close the query pane, and then view the **Develop** page to verify that the KQL script has been saved.
 
