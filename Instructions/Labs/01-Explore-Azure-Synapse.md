@@ -174,7 +174,7 @@ Now that you've ingested some data into your workspace, you can use Synapse Anal
 3. In the **Connect to** list, ensure **Built-in** is selected - this represents the built-in SQL Pool that was created with your workspace.
 4. On the toolbar, use the **&#9655; Run** button to run the SQL code, and review the results, which should look similar to this:
 
-    | C1 | c2 | c3 | c4 |
+    | C1 | C2 | C3 | C4 |
     | -- | -- | -- | -- |
     | ProductID | ProductName | Category | ListPrice |
     | 771 | Mountain-100 Silver, 38 | Mountain Bikes | 3399.9900 |
