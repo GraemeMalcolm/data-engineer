@@ -29,9 +29,10 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
 3. Note that you can resize the cloud shell by dragging the separator bar at the top of the pane, or by using the **&#8212;**, **&#9723;**, and **X** icons at the top right of the pane to minimize, maximize, and close the pane. For more information about using the Azure Cloud Shell, see the [Azure Cloud Shell documentation](https://docs.microsoft.com/azure/cloud-shell/overview).
 
-4. In the PowerShell pane, enter the following command to clone this repo:
+4. In the PowerShell pane, enter the following commands to clone this repo:
 
     ```
+    rm -r dp-000 -f
     git clone https://github.com/GraemeMalcolm/data-engineer dp-000
     ```
 
@@ -53,7 +54,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 *Synapse Studio* is a web-based portal in which you can manage and work with the resources in your Azure Synapse Analytics workspace.
 
 1. When the setup script has finished running, in the Azure portal, go to the **dp000-*xxxxxxx*** resource group that it created, and notice that this resource group contains your Synapse workspace, a Storage account for your data lake, an Apache Spark pool, a Data Explorer pool, and a Dedicated SQL pool.
-2. Select your Synapse workspace, and in its **Overview** page, in **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab. Synapse Studio is a web-based interface that you can use to work with your Synapse Analytics workspace.
+2. Select your Synapse workspace, and in its **Overview** page, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab. Synapse Studio is a web-based interface that you can use to work with your Synapse Analytics workspace.
 3. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks, as shown here:
 
     ![Image showing the expanded Synapse Studio menu to manage resources and perform data analytics tasks](./images/synapse-studio.png)
@@ -180,7 +181,7 @@ Now that you've ingested some data into your workspace, you can use Synapse Anal
     | 772 | Mountain-100 Silver, 42 | Mountain Bikes | 3399.9900 |
     | ... | ... | ... | ... |
 
-5. Note the results consist of four columns named C1, C2, C3, and C4; and that the first row in the results contains the names of the data fields. To fix this problem, add a HEADER_ROW = TRUE parameters to the OPENROWSET function as shown here (replacing *datalakexxxxxxx* with the names of your data lake storage account), and then rerun the query:
+5. Note the results consist of four columns named C1, C2, C3, and C4; and that the first row in the results contains the names of the data fields. To fix this problem, add a HEADER_ROW = TRUE parameters to the OPENROWSET function as shown here (replacing *datalakexxxxxxx* with the name of your data lake storage account), and then rerun the query:
 
     ```SQL
     SELECT
@@ -202,7 +203,7 @@ Now that you've ingested some data into your workspace, you can use Synapse Anal
     | 772 | Mountain-100 Silver, 42 | Mountain Bikes | 3399.9900 |
     | ... | ... | ... | ... |
 
-6. Modify the query as follows (replacing *datalakexxxxxxx* with the names of your data lake storage account):
+6. Modify the query as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account):
 
     ```SQL
     SELECT
@@ -447,7 +448,7 @@ If you've finished exploring Azure Synapse Analytics, you should delete the reso
 
 1. Close the Synapse Studio browser tab and return to the Azure portal.
 2. On the Azure portal, on the **Home** page, select **Resource groups**.
-3. Select the **dp000-*xxxxxxx*** resource group for your Synapse Analytics workspace (not the managed resource group), and verify that it contains the Synapse workspace, storage account, and Spark pool for your workspace.
+3. Select the **dp000-*xxxxxxx*** resource group for your Synapse Analytics workspace (not the managed resource group), and verify that it contains the Synapse workspace, storage account, SQL pool, Data Explorer pool, and Spark pool for your workspace.
 4. At the top of the **Overview** page for your resource group, select **Delete resource group**.
 5. Enter the **dp000-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
 

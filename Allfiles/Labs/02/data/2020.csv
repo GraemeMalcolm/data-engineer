@@ -1,4 +1,3 @@
-﻿SalesOrderNumber,SalesOrderLineNumber,OrderDate,CustomerName,EmailAddress,Item,Quantity,UnitPrice,TaxAmount
 SO45347,1,2020-01-01,Clarence Raji,clarence35@adventure-works.com,"Road-650 Black, 52",1,699.0982,55.9279
 SO45345,1,2020-01-01,Bonnie Yuan,bonnie12@adventure-works.com,"Road-150 Red, 52",1,3578.27,286.2616
 SO45348,1,2020-01-01,Leah Guo,leah14@adventure-works.com,"Road-150 Red, 44",1,3578.27,286.2616
@@ -363,11 +362,11 @@ SO45766,1,2020-02-26,Noah Coleman,noah2@adventure-works.com,"Road-150 Red, 48",1
 SO45765,1,2020-02-26,Ricky Vazquez,ricky15@adventure-works.com,"Mountain-100 Black, 44",1,3374.99,269.9992
 SO45774,1,2020-02-27,Stephanie Collins,stephanie52@adventure-works.com,"Road-150 Red, 48",1,3578.27,286.2616
 SO45771,1,2020-02-27,Danielle Reed,danielle23@adventure-works.com,"Road-150 Red, 56",1,3578.27,286.2616
-SO45773,1,2020-02-27,Niñia Anand,niñia0@adventure-works.com,"Road-150 Red, 44",1,3578.27,286.2616
+SO45773,1,2020-02-27,Ni�ia Anand,ni�ia0@adventure-works.com,"Road-150 Red, 44",1,3578.27,286.2616
 SO45772,1,2020-02-27,Olivia Ramirez,olivia42@adventure-works.com,"Road-150 Red, 52",1,3578.27,286.2616
 SO45776,1,2020-02-28,Megan Harris,megan16@adventure-works.com,"Road-150 Red, 52",1,3578.27,286.2616
 SO45777,1,2020-02-28,Sarah Garcia,sarah18@adventure-works.com,"Mountain-100 Silver, 44",1,3399.99,271.9992
-SO45775,1,2020-02-28,José Saraiva,josé5@adventure-works.com,"Road-150 Red, 56",1,3578.27,286.2616
+SO45775,1,2020-02-28,Jos� Saraiva,jos�5@adventure-works.com,"Road-150 Red, 56",1,3578.27,286.2616
 SO45778,1,2020-02-28,Samuel Walker,samuel72@adventure-works.com,"Mountain-100 Black, 48",1,3374.99,269.9992
 SO45817,1,2020-03-01,Riley Simmons,riley13@adventure-works.com,"Road-150 Red, 44",1,3578.27,286.2616
 SO45818,1,2020-03-01,Ariana Morgan,ariana20@adventure-works.com,"Road-650 Red, 48",1,699.0982,55.9279
@@ -734,7 +733,7 @@ SO46263,1,2020-04-20,Kelsey Xie,kelsey2@adventure-works.com,"Road-150 Red, 62",1
 SO46261,1,2020-04-20,Jessica Walker,jessica71@adventure-works.com,"Mountain-100 Black, 38",1,3374.99,269.9992
 SO46264,1,2020-04-21,Cassie Jai,cassie10@adventure-works.com,"Mountain-100 Black, 44",1,3374.99,269.9992
 SO46265,1,2020-04-21,Justin Shan,justin27@adventure-works.com,"Road-150 Red, 48",1,3578.27,286.2616
-SO46267,1,2020-04-21,Jésus Blanco,jésus14@adventure-works.com,"Road-150 Red, 56",1,3578.27,286.2616
+SO46267,1,2020-04-21,J�sus Blanco,j�sus14@adventure-works.com,"Road-150 Red, 56",1,3578.27,286.2616
 SO46268,1,2020-04-21,Laura Wu,laura13@adventure-works.com,"Road-150 Red, 44",1,3578.27,286.2616
 SO46269,1,2020-04-21,Rosa He,rosa18@adventure-works.com,"Road-150 Red, 48",1,3578.27,286.2616
 SO46266,1,2020-04-21,Sabrina Torres,sabrina7@adventure-works.com,"Road-150 Red, 56",1,3578.27,286.2616
@@ -1100,7 +1099,7 @@ SO46767,1,2020-06-10,Grant Rai,grant19@adventure-works.com,"Mountain-200 Black, 
 SO46776,1,2020-06-11,Julia Wood,julia68@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO46773,1,2020-06-11,Dalton Brooks,dalton71@adventure-works.com,"Road-250 Red, 58",1,2181.5625,174.525
 SO46772,1,2020-06-11,Jose Moore,jose68@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
-SO46774,1,2020-06-11,Jésus Suarez,jésus18@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
+SO46774,1,2020-06-11,J�sus Suarez,j�sus18@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO46771,1,2020-06-11,Alexandria Morris,alexandria39@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO46769,1,2020-06-11,Ruth Mehta,ruth18@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO46770,1,2020-06-11,Craig Navarro,craig11@adventure-works.com,"Road-250 Red, 52",1,2443.35,195.468
@@ -1467,7 +1466,7 @@ SO47271,1,2020-07-24,Anthony White,anthony20@adventure-works.com,"Road-550-W Yel
 SO47279,1,2020-07-24,George Sanchez,george27@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO47273,1,2020-07-24,Jordan Turner,jordan33@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO47269,1,2020-07-24,Dwayne Alonso,dwayne7@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
-SO47270,1,2020-07-24,Jésus Ramos,jésus16@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
+SO47270,1,2020-07-24,J�sus Ramos,j�sus16@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO47272,1,2020-07-24,Emma Hall,emma23@adventure-works.com,"Road-250 Red, 58",1,2181.5625,174.525
 SO47285,1,2020-07-25,Adam Allen,adam52@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO47289,1,2020-07-25,Jeremiah Lopez,jeremiah15@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
@@ -1639,13 +1638,13 @@ SO47559,1,2020-08-15,Amy Chow,amy10@adventure-works.com,"Mountain-200 Black, 46"
 SO47556,1,2020-08-15,Maurizio Macagno,maurizio0@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
 SO47557,1,2020-08-15,Bryan James,bryan4@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO47564,1,2020-08-16,Alan He,alan22@adventure-works.com,"Mountain-200 Silver, 46",1,2071.4196,165.7136
-SO47562,1,2020-08-16,Daisy Jiménez,daisy2@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
+SO47562,1,2020-08-16,Daisy Jim�nez,daisy2@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO47563,1,2020-08-16,Jenny Ferrier,jenny45@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO47561,1,2020-08-16,Fernando Jackson,fernando11@adventure-works.com,"Road-650 Red, 58",1,782.99,62.6392
 SO47560,1,2020-08-16,Steven Cook,steven31@adventure-works.com,"Road-650 Red, 62",1,782.99,62.6392
 SO47565,1,2020-08-17,Julia Morris,julia48@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO47568,1,2020-08-17,Rafael Xu,rafael13@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
-SO47567,1,2020-08-17,Barry Kovár,barry4@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
+SO47567,1,2020-08-17,Barry Kov�r,barry4@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
 SO47569,1,2020-08-17,Jimmy Dominguez,jimmy16@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
 SO47566,1,2020-08-17,Stacy Serrano,stacy17@adventure-works.com,"Road-550-W Yellow, 48",1,1000.4375,80.035
 SO47576,1,2020-08-18,Clarence Xu,clarence19@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
@@ -1828,7 +1827,7 @@ SO47816,1,2020-09-12,Micah Lu,micah22@adventure-works.com,"Road-250 Red, 48",1,2
 SO47815,1,2020-09-12,Marshall Zhao,marshall9@adventure-works.com,"Road-250 Red, 58",1,2181.5625,174.525
 SO47819,1,2020-09-12,Jaime Deng,jaime25@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO47818,1,2020-09-12,Aidan Bryant,aidan19@adventure-works.com,"Road-650 Red, 62",1,782.99,62.6392
-SO47812,1,2020-09-12,Danny Jiménez,danny6@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
+SO47812,1,2020-09-12,Danny Jim�nez,danny6@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO47824,1,2020-09-13,Edwin Chen,edwin2@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO47828,1,2020-09-13,Kristy Suarez,kristy17@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO47826,1,2020-09-13,Erica Wang,erica1@adventure-works.com,"Road-250 Red, 52",1,2443.35,195.468
@@ -1867,7 +1866,7 @@ SO47860,1,2020-09-18,Cindy James,cindy26@adventure-works.com,"Mountain-200 Silve
 SO47869,1,2020-09-18,Arthur Suri,arthur2@adventure-works.com,"Road-650 Red, 44",1,782.99,62.6392
 SO47859,1,2020-09-18,Franklin Nath,franklin35@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO47866,1,2020-09-18,Leslie Hernandez,leslie4@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
-SO47867,1,2020-09-18,Jésus Serrano,jésus15@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
+SO47867,1,2020-09-18,J�sus Serrano,j�sus15@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO47868,1,2020-09-18,Kendra Diaz,kendra3@adventure-works.com,"Mountain-200 Silver, 42",1,2071.4196,165.7136
 SO47865,1,2020-09-18,Gary Gutierrez,gary22@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
 SO47863,1,2020-09-18,Steve Lu,steve14@adventure-works.com,"Road-650 Red, 60",1,782.99,62.6392
@@ -2281,7 +2280,7 @@ SO48533,1,2020-11-11,Lindsey Shen,lindsey2@adventure-works.com,"Road-650 Red, 48
 SO48526,1,2020-11-11,Charles Thompson,charles19@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO48532,1,2020-11-11,Bianca Gao,bianca11@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO48530,1,2020-11-11,Gregory Becker,gregory24@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
-SO48531,1,2020-11-11,Whitney Kovár,whitney4@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
+SO48531,1,2020-11-11,Whitney Kov�r,whitney4@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO48522,1,2020-11-11,Erik Rubio,erik21@adventure-works.com,"Road-250 Red, 52",1,2443.35,195.468
 SO48524,1,2020-11-11,Kelvin Lal,kelvin5@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO48525,1,2020-11-11,Wyatt Anderson,wyatt10@adventure-works.com,"Road-550-W Yellow, 42",1,1000.4375,80.035
@@ -2609,7 +2608,7 @@ SO48917,1,2020-12-15,Jarrod Rodriguez,jarrod18@adventure-works.com,"Mountain-200
 SO48916,1,2020-12-15,Cole Ramirez,cole9@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO48918,1,2020-12-15,Diana Alvarez,diana3@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO48913,1,2020-12-15,Dalton Coleman,dalton51@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
-SO48912,1,2020-12-15,Jésus Alonso,jésus7@adventure-works.com,"Road-650 Red, 48",1,782.99,62.6392
+SO48912,1,2020-12-15,J�sus Alonso,j�sus7@adventure-works.com,"Road-650 Red, 48",1,782.99,62.6392
 SO48911,1,2020-12-15,Isabella Washington,isabella23@adventure-works.com,"Road-650 Black, 60",1,782.99,62.6392
 SO48910,1,2020-12-15,Zachary Martinez,zachary48@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO48915,1,2020-12-15,Jamie Zhang,jamie2@adventure-works.com,"Road-650 Black, 60",1,782.99,62.6392

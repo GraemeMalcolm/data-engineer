@@ -118,7 +118,7 @@ Get-ChildItem "./data/*.csv" -File | Foreach-Object {
     write-host ""
     $file = $_.Name
     Write-Host $file
-    $blobPath = "sales/$file"
+    $blobPath = "sales/orders/$file"
     Set-AzStorageBlobContent -File $_.FullName -Container "files" -Blob $blobPath -Context $storageContext
 }
 

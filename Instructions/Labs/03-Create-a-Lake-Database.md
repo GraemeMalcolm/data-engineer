@@ -29,9 +29,10 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
 3. Note that you can resize the cloud shell by dragging the separator bar at the top of the pane, or by using the **&#8212;**, **&#9723;**, and **X** icons at the top right of the pane to minimize, maximize, and close the pane. For more information about using the Azure Cloud Shell, see the [Azure Cloud Shell documentation](https://docs.microsoft.com/azure/cloud-shell/overview).
 
-4. In the PowerShell pane, enter the following command to clone this repo:
+4. In the PowerShell pane, enter the following commands to clone this repo:
 
     ```
+    rm -r dp-000 -f
     git clone https://github.com/GraemeMalcolm/data-engineer dp-000
     ```
 
@@ -53,7 +54,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 A lake database is a type of database that you can define in your workspace, and work with using the built-in serverless SQL pool.
 
 1. After the deployment script has completed, in the Azure portal, go to the **dp000-*xxxxxxx*** resource group that it created, and notice that this resource group contains your Synapse workspace, a Storage account for your data lake, and an Apache Spark pool.
-2. Select your Synapse workspace, and in its **Overview** page, in **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
+2. Select your Synapse workspace, and in its **Overview** page, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab; signing in if prompted.
 3. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
 4. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account.
 5. On the **Data** page, switch back to the **Workspace** tab and note that there are no databases in your workspace.
@@ -213,6 +214,8 @@ So far, you've created tables and then populated them with data. In some cases, 
     | ---- | ---- | ----------- | ----------- |
     | SalesOrder | ProductId | Product | ProductId |
 
+    The ability to define relationships between tables helps enforce referential integrity between related data entities. This is a common feature of relational databases that would otherwise be difficult to apply to files in a data lake.
+
 7. Publish the database again to save the changes.
 8. In the **Data** pane on the left, switch back to the **Workspace** tab so you can see the **RetailDB** lake database. Then use the **...** menu for its **Tables** folder to refresh the view and see the newly created **SalesOrder** table.
 
@@ -273,4 +276,3 @@ If you've finished exploring Azure Synapse Analytics, you should delete the reso
 5. Enter the **dp000-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
 
     After a few minutes, your Azure Synapse workspace and the managed workspace associated with it will be deleted.
-    

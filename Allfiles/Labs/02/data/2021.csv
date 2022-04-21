@@ -1,4 +1,3 @@
-﻿SalesOrderNumber,SalesOrderLineNumber,OrderDate,CustomerName,EmailAddress,Item,Quantity,UnitPrice,TaxAmount
 SO49171,1,2021-01-01,Mariah Foster,mariah21@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO49172,1,2021-01-01,Brian Howard,brian23@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO49173,1,2021-01-01,Linda Alvarez,linda19@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
@@ -17,7 +16,7 @@ SO49184,1,2021-01-02,Monica Martinez,monica17@adventure-works.com,"Mountain-200 
 SO49189,1,2021-01-02,Marie Gonzalez,marie20@adventure-works.com,"Road-650 Black, 48",1,782.99,62.6392
 SO49182,1,2021-01-02,Alexandra Hall,alexandra89@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
 SO49183,1,2021-01-02,Alejandro Raji,alejandro46@adventure-works.com,"Road-250 Red, 52",1,2443.35,195.468
-SO49181,1,2021-01-02,Derrick Jiménez,derrick5@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
+SO49181,1,2021-01-02,Derrick Jim�nez,derrick5@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO49188,1,2021-01-02,Erin Cox,erin15@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO49192,1,2021-01-03,Eugene Sun,eugene17@adventure-works.com,"Road-550-W Yellow, 44",1,1000.4375,80.035
 SO49191,1,2021-01-03,Benjamin Thompson,benjamin52@adventure-works.com,"Road-550-W Yellow, 44",1,1000.4375,80.035
@@ -68,7 +67,7 @@ SO49236,1,2021-01-06,Edwin Sharma,edwin32@adventure-works.com,"Road-550-W Yellow
 SO49231,1,2021-01-06,Nathan Butler,nathan10@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO49228,1,2021-01-06,Chloe Ross,chloe70@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO49245,1,2021-01-07,Alberto Hernandez,alberto5@adventure-works.com,"Road-550-W Yellow, 48",1,1000.4375,80.035
-SO49246,1,2021-01-07,Bruce Jiménez,bruce28@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
+SO49246,1,2021-01-07,Bruce Jim�nez,bruce28@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO49242,1,2021-01-07,Ronnie Yang,ronnie4@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO49244,1,2021-01-07,Cody Stewart,cody22@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO49239,1,2021-01-07,Roger Shen,roger29@adventure-works.com,"Mountain-200 Silver, 42",1,2071.4196,165.7136
@@ -145,7 +144,7 @@ SO49317,1,2021-01-15,Ian King,ian25@adventure-works.com,"Road-550-W Yellow, 38",
 SO49314,1,2021-01-15,Robyn Munoz,robyn5@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO49315,1,2021-01-15,Stacey Yang,stacey5@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO49313,1,2021-01-15,Nathan Wang,nathan21@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
-SO49316,1,2021-01-15,Pedro Muñoz,pedro28@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
+SO49316,1,2021-01-15,Pedro Mu�oz,pedro28@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
 SO49320,1,2021-01-15,Naomi Ruiz,naomi2@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO49319,1,2021-01-15,Patricia Perez,patricia22@adventure-works.com,"Road-550-W Yellow, 44",1,1000.4375,80.035
 SO49322,1,2021-01-15,Candice Cai,candice5@adventure-works.com,"Road-650 Red, 48",1,782.99,62.6392
@@ -336,7 +335,7 @@ SO49612,1,2021-02-04,Jill Ramos,jill25@adventure-works.com,"Road-650 Black, 44",
 SO49605,1,2021-02-04,Michele Arun,michele62@adventure-works.com,"Road-550-W Yellow, 38",1,1000.4375,80.035
 SO49610,1,2021-02-04,Sean Perez,sean35@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO49615,1,2021-02-05,Omar Ye,omar9@adventure-works.com,"Road-650 Red, 44",1,782.99,62.6392
-SO49614,1,2021-02-05,Arthur Jiménez,arthur29@adventure-works.com,"Road-650 Black, 52",1,782.99,62.6392
+SO49614,1,2021-02-05,Arthur Jim�nez,arthur29@adventure-works.com,"Road-650 Black, 52",1,782.99,62.6392
 SO49613,1,2021-02-05,Danny Gutierrez,danny12@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO49616,1,2021-02-05,Priscilla Tang,priscilla3@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
 SO49618,1,2021-02-05,Byron Ramos,byron11@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
@@ -392,7 +391,7 @@ SO49668,1,2021-02-10,Meredith Subram,meredith12@adventure-works.com,"Mountain-20
 SO49666,1,2021-02-10,Derek Xie,derek3@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO49664,1,2021-02-10,Renee Gutierrez,renee10@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO49669,1,2021-02-10,Nathan Campbell,nathan36@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
-SO49665,1,2021-02-10,Jésus Navarro,jésus9@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
+SO49665,1,2021-02-10,J�sus Navarro,j�sus9@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO49671,1,2021-02-11,Dennis Zhou,dennis10@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO49672,1,2021-02-11,Ebony Sai,ebony5@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
 SO49673,1,2021-02-11,Aimee Wang,aimee1@adventure-works.com,"Road-650 Red, 62",1,782.99,62.6392
@@ -507,13 +506,13 @@ SO49782,1,2021-02-25,Sheila Serrano,sheila15@adventure-works.com,"Road-650 Red, 
 SO49783,1,2021-02-25,Nicolas Nara,nicolas15@adventure-works.com,"Road-650 Black, 52",1,782.99,62.6392
 SO49780,1,2021-02-25,Ricardo Lal,ricardo8@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO49779,1,2021-02-25,Jacqueline James,jacqueline32@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
-SO49778,1,2021-02-25,Cheryl Jiménez,cheryl7@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
+SO49778,1,2021-02-25,Cheryl Jim�nez,cheryl7@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
 SO49787,1,2021-02-25,Naomi Ramos,naomi18@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO49788,1,2021-02-25,Bonnie Chande,bonnie21@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO49789,1,2021-02-25,Thomas Harris,thomas75@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO49786,1,2021-02-25,Elizabeth Brown,elizabeth8@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
 SO49790,1,2021-02-25,Damien Zhang,damien0@adventure-works.com,"Road-650 Red, 48",1,782.99,62.6392
-SO49800,1,2021-02-26,César Raman,césar11@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
+SO49800,1,2021-02-26,C�sar Raman,c�sar11@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO49799,1,2021-02-26,Raymond Subram,raymond15@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO49798,1,2021-02-26,Christine Luo,christine3@adventure-works.com,"Road-250 Black, 48",1,2181.5625,174.525
 SO49796,1,2021-02-26,Kaitlyn James,kaitlyn63@adventure-works.com,"Road-650 Black, 62",1,782.99,62.6392
@@ -766,7 +765,7 @@ SO50117,1,2021-03-24,Omar Rai,omar38@adventure-works.com,"Road-250 Black, 48",1,
 SO50116,1,2021-03-24,Clayton Li,clayton3@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO50115,1,2021-03-24,Terrance Garcia,terrance12@adventure-works.com,"Road-250 Black, 44",1,2181.5625,174.525
 SO50122,1,2021-03-24,Megan Brown,megan7@adventure-works.com,"Road-650 Black, 48",1,782.99,62.6392
-SO50123,1,2021-03-24,José Miller,josé64@adventure-works.com,"Road-650 Red, 52",1,782.99,62.6392
+SO50123,1,2021-03-24,Jos� Miller,jos�64@adventure-works.com,"Road-650 Red, 52",1,782.99,62.6392
 SO50125,1,2021-03-24,Frank Romero,frank16@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO50121,1,2021-03-24,Bryant Perez,bryant20@adventure-works.com,"Mountain-200 Silver, 42",1,2071.4196,165.7136
 SO50126,1,2021-03-24,Derek Kumar,derek7@adventure-works.com,"Mountain-200 Silver, 46",1,2071.4196,165.7136
@@ -829,7 +828,7 @@ SO50177,1,2021-03-29,Elijah Shan,elijah5@adventure-works.com,"Road-650 Red, 60",
 SO50187,1,2021-03-30,Colleen Shan,colleen34@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO50180,1,2021-03-30,Armando Alvarez,armando5@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
 SO50179,1,2021-03-30,Nathan Martin,nathan72@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
-SO50181,1,2021-03-30,Dana Jiménez,dana21@adventure-works.com,"Road-550-W Yellow, 42",1,1000.4375,80.035
+SO50181,1,2021-03-30,Dana Jim�nez,dana21@adventure-works.com,"Road-550-W Yellow, 42",1,1000.4375,80.035
 SO50182,1,2021-03-30,Frank Jimenez,frank36@adventure-works.com,"Road-650 Red, 62",1,782.99,62.6392
 SO50183,1,2021-03-30,Christy Hu,christy18@adventure-works.com,"Road-650 Red, 48",1,782.99,62.6392
 SO50186,1,2021-03-30,Nicole Blue,nicole51@adventure-works.com,"Road-550-W Yellow, 42",1,1000.4375,80.035
@@ -1025,7 +1024,7 @@ SO50507,1,2021-04-16,Bob Alan,bob6@adventure-works.com,"Road-650 Black, 58",1,78
 SO50506,1,2021-04-16,Henry Rana,henry12@adventure-works.com,"Road-650 Black, 60",1,782.99,62.6392
 SO50510,1,2021-04-17,Mallory Navarro,mallory17@adventure-works.com,"Road-250 Black, 52",1,2181.5625,174.525
 SO50509,1,2021-04-17,Andre Patel,andre3@adventure-works.com,"Road-250 Red, 52",1,2443.35,195.468
-SO50515,1,2021-04-18,Alberto Jiménez,alberto7@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
+SO50515,1,2021-04-18,Alberto Jim�nez,alberto7@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO50516,1,2021-04-18,Emma Kelly,emma46@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO50514,1,2021-04-18,Janice Bennett,janice4@adventure-works.com,"Road-650 Black, 48",1,782.99,62.6392
 SO50511,1,2021-04-18,Cassandra Prasad,cassandra10@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
@@ -1165,7 +1164,7 @@ SO50655,1,2021-04-30,Jeffery Cai,jeffery21@adventure-works.com,"Mountain-200 Bla
 SO50646,1,2021-04-30,Priscilla Andersen,priscilla11@adventure-works.com,"Road-550-W Yellow, 40",1,1000.4375,80.035
 SO50645,1,2021-04-30,Candice Wang,candice9@adventure-works.com,"Road-550-W Yellow, 44",1,1000.4375,80.035
 SO50647,1,2021-04-30,Roger Tang,roger31@adventure-works.com,"Road-650 Black, 44",1,782.99,62.6392
-SO50657,1,2021-04-30,Brandi Jiménez,brandi6@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
+SO50657,1,2021-04-30,Brandi Jim�nez,brandi6@adventure-works.com,"Road-250 Red, 48",1,2443.35,195.468
 SO50654,1,2021-04-30,Roger Chander,roger43@adventure-works.com,"Road-550-W Yellow, 48",1,1000.4375,80.035
 SO50656,1,2021-04-30,Alex Cooper,alex12@adventure-works.com,"Road-650 Black, 62",1,782.99,62.6392
 SO50644,1,2021-04-30,Aidan Powell,aidan9@adventure-works.com,"Mountain-200 Black, 46",1,2049.0982,163.9279
@@ -1256,7 +1255,7 @@ SO50852,1,2021-05-08,Omar He,omar17@adventure-works.com,"Mountain-200 Black, 46"
 SO50840,1,2021-05-08,Ethan Henderson,ethan1@adventure-works.com,"Road-250 Red, 58",1,2181.5625,174.525
 SO50848,1,2021-05-08,Dalton Sanchez,dalton89@adventure-works.com,"Road-650 Black, 60",1,782.99,62.6392
 SO50847,1,2021-05-08,Julio Moreno,julio6@adventure-works.com,"Road-650 Red, 62",1,782.99,62.6392
-SO50849,1,2021-05-08,Byron Jiménez,byron4@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
+SO50849,1,2021-05-08,Byron Jim�nez,byron4@adventure-works.com,"Mountain-200 Black, 38",1,2049.0982,163.9279
 SO50850,1,2021-05-08,Joan Jenkins,joan6@adventure-works.com,"Mountain-200 Black, 42",1,2049.0982,163.9279
 SO50839,1,2021-05-08,Joy Alonso,joy9@adventure-works.com,"Road-550-W Yellow, 48",1,1000.4375,80.035
 SO50844,1,2021-05-08,Bridget Luo,bridget7@adventure-works.com,"Road-650 Red, 44",1,782.99,62.6392
@@ -1311,7 +1310,7 @@ SO50897,1,2021-05-13,Dominique Prasad,dominique7@adventure-works.com,"Mountain-2
 SO50898,1,2021-05-13,Susan Ma,susan26@adventure-works.com,"Road-250 Red, 58",1,2181.5625,174.525
 SO50901,1,2021-05-13,Tabitha Kovar,tabitha3@adventure-works.com,"Mountain-200 Silver, 38",1,2071.4196,165.7136
 SO50899,1,2021-05-13,Alexis Ross,alexis26@adventure-works.com,"Road-650 Black, 58",1,782.99,62.6392
-SO50902,1,2021-05-13,Jaime Muñoz,jaime8@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
+SO50902,1,2021-05-13,Jaime Mu�oz,jaime8@adventure-works.com,"Road-250 Red, 44",1,2443.35,195.468
 SO50904,1,2021-05-13,Diana Alonso,diana7@adventure-works.com,"Road-250 Black, 58",1,2181.5625,174.525
 SO50903,1,2021-05-13,Jerry Luo,jerry6@adventure-works.com,"Road-250 Red, 52",1,2443.35,195.468
 SO50900,1,2021-05-13,Monique Torres,monique8@adventure-works.com,"Road-550-W Yellow, 42",1,1000.4375,80.035
@@ -1564,8 +1563,8 @@ SO51197,4,2021-06-01,Kyle Patterson,kyle5@adventure-works.com,AWC Logo Cap,1,8.9
 SO51195,1,2021-06-01,Melody Jimenez,melody6@adventure-works.com,"Mountain-400-W Silver, 40",1,769.49,61.5592
 SO51195,2,2021-06-01,Melody Jimenez,melody6@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO51195,3,2021-06-01,Melody Jimenez,melody6@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
-SO51200,1,2021-06-01,Javier Jiménez,javier2@adventure-works.com,"Road-550-W Yellow, 48",1,1120.49,89.6392
-SO51200,2,2021-06-01,Javier Jiménez,javier2@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO51200,1,2021-06-01,Javier Jim�nez,javier2@adventure-works.com,"Road-550-W Yellow, 48",1,1120.49,89.6392
+SO51200,2,2021-06-01,Javier Jim�nez,javier2@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO51201,1,2021-06-01,Joel Patel,joel2@adventure-works.com,"Touring-1000 Blue, 46",1,2384.07,190.7256
 SO51201,2,2021-06-01,Joel Patel,joel2@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO51202,1,2021-06-01,Christine Sutton,christine2@adventure-works.com,"Touring-2000 Blue, 50",1,1214.85,97.188
@@ -1638,9 +1637,9 @@ SO51233,1,2021-06-03,Darren Townsend,darren34@adventure-works.com,"Road-350-W Ye
 SO51241,1,2021-06-03,Alexa Bell,alexa12@adventure-works.com,"Road-750 Black, 52",1,539.99,43.1992
 SO51241,2,2021-06-03,Alexa Bell,alexa12@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO51241,3,2021-06-03,Alexa Bell,alexa12@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO51225,1,2021-06-03,Arthur Jiménez,arthur29@adventure-works.com,"Road-350-W Yellow, 42",1,1700.99,136.0792
-SO51225,2,2021-06-03,Arthur Jiménez,arthur29@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
-SO51225,3,2021-06-03,Arthur Jiménez,arthur29@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO51225,1,2021-06-03,Arthur Jim�nez,arthur29@adventure-works.com,"Road-350-W Yellow, 42",1,1700.99,136.0792
+SO51225,2,2021-06-03,Arthur Jim�nez,arthur29@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
+SO51225,3,2021-06-03,Arthur Jim�nez,arthur29@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO51229,1,2021-06-03,Taylor Price,taylor25@adventure-works.com,"Road-250 Black, 52",1,2443.35,195.468
 SO51242,1,2021-06-03,Jeremy Watson,jeremy32@adventure-works.com,"Road-550-W Yellow, 44",1,1120.49,89.6392
 SO51242,2,2021-06-03,Jeremy Watson,jeremy32@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
@@ -2235,10 +2234,10 @@ SO51446,1,2021-06-16,Cassie Nath,cassie17@adventure-works.com,"Road-550-W Yellow
 SO51446,2,2021-06-16,Cassie Nath,cassie17@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO51449,1,2021-06-16,Victoria Reed,victoria28@adventure-works.com,"Touring-2000 Blue, 60",1,1214.85,97.188
 SO51449,2,2021-06-16,Victoria Reed,victoria28@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO51453,1,2021-06-16,Abby Kovár,abby3@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
-SO51453,2,2021-06-16,Abby Kovár,abby3@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO51453,3,2021-06-16,Abby Kovár,abby3@adventure-works.com,LL Road Tire,1,21.49,1.7192
-SO51453,4,2021-06-16,Abby Kovár,abby3@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
+SO51453,1,2021-06-16,Abby Kov�r,abby3@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
+SO51453,2,2021-06-16,Abby Kov�r,abby3@adventure-works.com,Road Tire Tube,1,3.99,0.3192
+SO51453,3,2021-06-16,Abby Kov�r,abby3@adventure-works.com,LL Road Tire,1,21.49,1.7192
+SO51453,4,2021-06-16,Abby Kov�r,abby3@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO51441,1,2021-06-16,Brandi Gill,brandi13@adventure-works.com,"Road-250 Black, 52",1,2443.35,195.468
 SO51441,2,2021-06-16,Brandi Gill,brandi13@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
 SO51443,1,2021-06-16,Aaron King,aaron51@adventure-works.com,"Mountain-200 Silver, 38",1,2319.99,185.5992
@@ -2677,8 +2676,8 @@ SO51588,1,2021-06-25,Gerald Rubio,gerald28@adventure-works.com,"Road-250 Black, 
 SO51588,2,2021-06-25,Gerald Rubio,gerald28@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO51588,3,2021-06-25,Gerald Rubio,gerald28@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO51588,4,2021-06-25,Gerald Rubio,gerald28@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
-SO51603,1,2021-06-25,Jésus Gomez,jésus2@adventure-works.com,"Touring-2000 Blue, 54",1,1214.85,97.188
-SO51603,2,2021-06-25,Jésus Gomez,jésus2@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO51603,1,2021-06-25,J�sus Gomez,j�sus2@adventure-works.com,"Touring-2000 Blue, 54",1,1214.85,97.188
+SO51603,2,2021-06-25,J�sus Gomez,j�sus2@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO51615,1,2021-06-26,Marcus Price,marcus49@adventure-works.com,"Touring-1000 Yellow, 54",1,2384.07,190.7256
 SO51615,2,2021-06-26,Marcus Price,marcus49@adventure-works.com,"Racing Socks, L",1,8.99,0.7192
 SO51617,1,2021-06-26,Andrea Torres,andrea14@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
@@ -2871,11 +2870,11 @@ SO51683,1,2021-06-30,Chad Kumar,chad9@adventure-works.com,"Mountain-200 Black, 3
 SO51683,2,2021-06-30,Chad Kumar,chad9@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO51683,3,2021-06-30,Chad Kumar,chad9@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO51683,4,2021-06-30,Chad Kumar,chad9@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
-SO51684,1,2021-06-30,Ruben Muñoz,ruben30@adventure-works.com,"Mountain-200 Black, 38",1,2294.99,183.5992
-SO51684,2,2021-06-30,Ruben Muñoz,ruben30@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO51684,3,2021-06-30,Ruben Muñoz,ruben30@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
-SO51684,4,2021-06-30,Ruben Muñoz,ruben30@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO51684,5,2021-06-30,Ruben Muñoz,ruben30@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO51684,1,2021-06-30,Ruben Mu�oz,ruben30@adventure-works.com,"Mountain-200 Black, 38",1,2294.99,183.5992
+SO51684,2,2021-06-30,Ruben Mu�oz,ruben30@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
+SO51684,3,2021-06-30,Ruben Mu�oz,ruben30@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
+SO51684,4,2021-06-30,Ruben Mu�oz,ruben30@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO51684,5,2021-06-30,Ruben Mu�oz,ruben30@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO51681,1,2021-06-30,Justin Alexander,justin16@adventure-works.com,"Touring-3000 Blue, 54",1,742.35,59.388
 SO51681,2,2021-06-30,Justin Alexander,justin16@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO51680,1,2021-06-30,Janelle Sanchez,janelle17@adventure-works.com,"Touring-3000 Blue, 44",1,742.35,59.388
@@ -3570,8 +3569,8 @@ SO52193,1,2021-07-07,Brandon Russell,brandon17@adventure-works.com,Fender Set - 
 SO52193,2,2021-07-07,Brandon Russell,brandon17@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO52189,1,2021-07-07,Matthew Anderson,matthew15@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO52189,2,2021-07-07,Matthew Anderson,matthew15@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO52188,1,2021-07-07,Alfredo Jiménez,alfredo6@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO52188,2,2021-07-07,Alfredo Jiménez,alfredo6@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO52188,1,2021-07-07,Alfredo Jim�nez,alfredo6@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO52188,2,2021-07-07,Alfredo Jim�nez,alfredo6@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO52210,1,2021-07-07,Erica Chen,erica2@adventure-works.com,"Road-250 Black, 48",1,2443.35,195.468
 SO52210,2,2021-07-07,Erica Chen,erica2@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO52210,3,2021-07-07,Erica Chen,erica2@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -4479,7 +4478,7 @@ SO52498,1,2021-07-13,Samuel Turner,samuel35@adventure-works.com,"Women's Mountai
 SO52517,1,2021-07-13,Arianna Reed,arianna42@adventure-works.com,"Touring-3000 Blue, 44",1,742.35,59.388
 SO52517,2,2021-07-13,Arianna Reed,arianna42@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO52517,3,2021-07-13,Arianna Reed,arianna42@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
-SO52573,1,2021-07-14,Jésus Rubio,jésus20@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
+SO52573,1,2021-07-14,J�sus Rubio,j�sus20@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
 SO52553,1,2021-07-14,Carla Suri,carla3@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO52546,1,2021-07-14,Kaylee Ward,kaylee9@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO52544,1,2021-07-14,Natalie Harris,natalie81@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -4570,8 +4569,8 @@ SO52571,1,2021-07-14,Jeremiah Scott,jeremiah17@adventure-works.com,"Road-550-W Y
 SO52571,2,2021-07-14,Jeremiah Scott,jeremiah17@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO52571,3,2021-07-14,Jeremiah Scott,jeremiah17@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO52571,4,2021-07-14,Jeremiah Scott,jeremiah17@adventure-works.com,Hitch Rack - 4-Bike,1,120.00,9.60
-SO52549,1,2021-07-14,Billy Jiménez,billy7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO52549,2,2021-07-14,Billy Jiménez,billy7@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
+SO52549,1,2021-07-14,Billy Jim�nez,billy7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO52549,2,2021-07-14,Billy Jim�nez,billy7@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO52563,1,2021-07-14,Robert Roberts,robert47@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO52563,2,2021-07-14,Robert Roberts,robert47@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO52529,1,2021-07-14,Stephanie Russell,stephanie47@adventure-works.com,LL Road Tire,1,21.49,1.7192
@@ -4830,9 +4829,9 @@ SO52667,2,2021-07-16,Marie Garcia,marie16@adventure-works.com,"Road-750 Black, 5
 SO52668,1,2021-07-16,Leonard Deng,leonard2@adventure-works.com,"Touring-1000 Yellow, 46",1,2384.07,190.7256
 SO52668,2,2021-07-16,Leonard Deng,leonard2@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO52668,3,2021-07-16,Leonard Deng,leonard2@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO52666,1,2021-07-16,Jésus Diaz,jésus3@adventure-works.com,"Road-550-W Yellow, 38",1,1120.49,89.6392
-SO52666,2,2021-07-16,Jésus Diaz,jésus3@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO52666,3,2021-07-16,Jésus Diaz,jésus3@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO52666,1,2021-07-16,J�sus Diaz,j�sus3@adventure-works.com,"Road-550-W Yellow, 38",1,1120.49,89.6392
+SO52666,2,2021-07-16,J�sus Diaz,j�sus3@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO52666,3,2021-07-16,J�sus Diaz,j�sus3@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO52646,1,2021-07-16,Natalie Butler,natalie36@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO52646,2,2021-07-16,Natalie Butler,natalie36@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO52659,1,2021-07-16,Alvin Liu,alvin5@adventure-works.com,"Touring-3000 Yellow, 62",1,742.35,59.388
@@ -5956,7 +5955,7 @@ SO53160,1,2021-07-26,Jocelyn Griffin,jocelyn20@adventure-works.com,Road Tire Tub
 SO53141,1,2021-07-26,Rachael Gonzalez,rachael17@adventure-works.com,"Road-250 Red, 58",1,2443.35,195.468
 SO53141,2,2021-07-26,Rachael Gonzalez,rachael17@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO53141,3,2021-07-26,Rachael Gonzalez,rachael17@adventure-works.com,HL Road Tire,1,32.60,2.608
-SO53176,1,2021-07-26,Andrés Anand,andrés18@adventure-works.com,"Mountain-200 Black, 42",1,2294.99,183.5992
+SO53176,1,2021-07-26,Andr�s Anand,andr�s18@adventure-works.com,"Mountain-200 Black, 42",1,2294.99,183.5992
 SO53134,1,2021-07-26,Darryl Wu,darryl6@adventure-works.com,"Mountain-200 Black, 46",1,2294.99,183.5992
 SO53134,2,2021-07-26,Darryl Wu,darryl6@adventure-works.com,HL Mountain Tire,1,35.00,2.80
 SO53134,3,2021-07-26,Darryl Wu,darryl6@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
@@ -6149,7 +6148,7 @@ SO53229,3,2021-07-27,Colin Lin,colin8@adventure-works.com,"Sport-100 Helmet, Blu
 SO53196,1,2021-07-27,Jessie Blanco,jessie34@adventure-works.com,"Road-250 Black, 48",1,2443.35,195.468
 SO53196,2,2021-07-27,Jessie Blanco,jessie34@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO53196,3,2021-07-27,Jessie Blanco,jessie34@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
-SO53191,1,2021-07-27,Donald Kovár,donald6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
+SO53191,1,2021-07-27,Donald Kov�r,donald6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO53189,1,2021-07-27,Luke Baker,luke39@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO53189,2,2021-07-27,Luke Baker,luke39@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO53208,1,2021-07-27,Jack Gonzalez,jack44@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
@@ -6662,8 +6661,8 @@ SO53439,2,2021-07-31,Thomas Moore,thomas69@adventure-works.com,"Sport-100 Helmet
 SO53439,3,2021-07-31,Thomas Moore,thomas69@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
 SO53434,1,2021-07-31,Cory Patel,cory1@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO53434,2,2021-07-31,Cory Patel,cory1@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO53449,1,2021-07-31,José Saraiva,josé5@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
-SO53449,2,2021-07-31,José Saraiva,josé5@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
+SO53449,1,2021-07-31,Jos� Saraiva,jos�5@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
+SO53449,2,2021-07-31,Jos� Saraiva,jos�5@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO53448,1,2021-07-31,Lance Blanco,lance15@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
 SO53448,2,2021-07-31,Lance Blanco,lance15@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO53448,3,2021-07-31,Lance Blanco,lance15@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -6762,7 +6761,7 @@ SO53637,2,2021-08-01,Madeline Evans,madeline0@adventure-works.com,Water Bottle -
 SO53637,3,2021-08-01,Madeline Evans,madeline0@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO53637,4,2021-08-01,Madeline Evans,madeline0@adventure-works.com,"Classic Vest, S",1,63.50,5.08
 SO53658,1,2021-08-01,Derrick Munoz,derrick7@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
-SO53640,1,2021-08-01,Francisco Javier Castrejón,francisco0@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
+SO53640,1,2021-08-01,Francisco Javier Castrej�n,francisco0@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
 SO53650,1,2021-08-01,Lacey Rai,lacey7@adventure-works.com,"Road-350-W Yellow, 42",1,1700.99,136.0792
 SO53650,2,2021-08-01,Lacey Rai,lacey7@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO53650,3,2021-08-01,Lacey Rai,lacey7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -6909,9 +6908,9 @@ SO53708,1,2021-08-02,Nicole Taylor,nicole9@adventure-works.com,"Mountain-200 Bla
 SO53708,2,2021-08-02,Nicole Taylor,nicole9@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO53712,1,2021-08-02,Laura Lin,laura14@adventure-works.com,"Mountain-200 Silver, 42",1,2319.99,185.5992
 SO53712,2,2021-08-02,Laura Lin,laura14@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO53682,1,2021-08-02,José Hernandez,josé54@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO53682,2,2021-08-02,José Hernandez,josé54@adventure-works.com,ML Road Tire,1,24.99,1.9992
-SO53682,3,2021-08-02,José Hernandez,josé54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO53682,1,2021-08-02,Jos� Hernandez,jos�54@adventure-works.com,Road Tire Tube,1,3.99,0.3192
+SO53682,2,2021-08-02,Jos� Hernandez,jos�54@adventure-works.com,ML Road Tire,1,24.99,1.9992
+SO53682,3,2021-08-02,Jos� Hernandez,jos�54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO53667,1,2021-08-02,Linda Serrano,linda31@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO53667,2,2021-08-02,Linda Serrano,linda31@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO53684,1,2021-08-02,Eduardo Patterson,eduardo55@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
@@ -7334,8 +7333,8 @@ SO53901,3,2021-08-06,Julia Gonzalez,julia14@adventure-works.com,Bike Wash - Diss
 SO53902,1,2021-08-06,Joe Gomez,joe25@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO53891,1,2021-08-06,Isabelle Winston,isabelle12@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
 SO53903,1,2021-08-06,Ebony Diaz,ebony25@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
-SO53894,1,2021-08-06,María Flores,maría35@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO53894,2,2021-08-06,María Flores,maría35@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO53894,1,2021-08-06,Mar�a Flores,mar�a35@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO53894,2,2021-08-06,Mar�a Flores,mar�a35@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO53895,1,2021-08-06,Janet Turner,janet32@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO53895,2,2021-08-06,Janet Turner,janet32@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO53895,3,2021-08-06,Janet Turner,janet32@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
@@ -7979,10 +7978,10 @@ SO54115,1,2021-08-10,James Hall,james71@adventure-works.com,Touring Tire,1,28.99
 SO54115,2,2021-08-10,James Hall,james71@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO54115,3,2021-08-10,James Hall,james71@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
 SO54115,4,2021-08-10,James Hall,james71@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
-SO54138,1,2021-08-10,Deanna Jiménez,deanna31@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
-SO54138,2,2021-08-10,Deanna Jiménez,deanna31@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
-SO54138,3,2021-08-10,Deanna Jiménez,deanna31@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO54138,4,2021-08-10,Deanna Jiménez,deanna31@adventure-works.com,"Racing Socks, L",1,8.99,0.7192
+SO54138,1,2021-08-10,Deanna Jim�nez,deanna31@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
+SO54138,2,2021-08-10,Deanna Jim�nez,deanna31@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO54138,3,2021-08-10,Deanna Jim�nez,deanna31@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO54138,4,2021-08-10,Deanna Jim�nez,deanna31@adventure-works.com,"Racing Socks, L",1,8.99,0.7192
 SO54152,1,2021-08-11,Emily Anderson,emily10@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO54152,2,2021-08-11,Emily Anderson,emily10@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO54167,1,2021-08-11,Omar Zhou,omar8@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
@@ -8246,7 +8245,7 @@ SO54293,2,2021-08-13,Molly Rodriguez,molly18@adventure-works.com,Mountain Tire T
 SO54293,3,2021-08-13,Molly Rodriguez,molly18@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO54301,1,2021-08-13,Mayra Prasad,mayra9@adventure-works.com,"Touring-2000 Blue, 50",1,1214.85,97.188
 SO54301,2,2021-08-13,Mayra Prasad,mayra9@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO54292,1,2021-08-13,José Hernandez,josé54@adventure-works.com,HL Mountain Tire,1,35.00,2.80
+SO54292,1,2021-08-13,Jos� Hernandez,jos�54@adventure-works.com,HL Mountain Tire,1,35.00,2.80
 SO54268,1,2021-08-13,Gina Martin,gina1@adventure-works.com,ML Road Tire,1,24.99,1.9992
 SO54307,3,2021-08-13,Meredith Gutierrez,meredith34@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO54307,4,2021-08-13,Meredith Gutierrez,meredith34@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
@@ -8424,9 +8423,9 @@ SO54344,1,2021-08-14,Kelvin Alan,kelvin19@adventure-works.com,ML Road Tire,1,24.
 SO54344,2,2021-08-14,Kelvin Alan,kelvin19@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO54344,3,2021-08-14,Kelvin Alan,kelvin19@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
 SO54338,1,2021-08-14,Logan Nelson,logan35@adventure-works.com,"Women's Mountain Shorts, M",1,69.99,5.5992
-SO54347,1,2021-08-14,Kari Muñoz,kari27@adventure-works.com,ML Road Tire,1,24.99,1.9992
-SO54347,2,2021-08-14,Kari Muñoz,kari27@adventure-works.com,"Short-Sleeve Classic Jersey, XL",1,53.99,4.3192
-SO54347,3,2021-08-14,Kari Muñoz,kari27@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO54347,1,2021-08-14,Kari Mu�oz,kari27@adventure-works.com,ML Road Tire,1,24.99,1.9992
+SO54347,2,2021-08-14,Kari Mu�oz,kari27@adventure-works.com,"Short-Sleeve Classic Jersey, XL",1,53.99,4.3192
+SO54347,3,2021-08-14,Kari Mu�oz,kari27@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO54337,1,2021-08-14,Allison Stewart,allison24@adventure-works.com,"Women's Mountain Shorts, S",1,69.99,5.5992
 SO54342,1,2021-08-14,Stephanie Stone,stephanie3@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO54342,2,2021-08-14,Stephanie Stone,stephanie3@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
@@ -9050,10 +9049,10 @@ SO54541,1,2021-08-18,Jose Hughes,jose34@adventure-works.com,Touring Tire,1,28.99
 SO54541,2,2021-08-18,Jose Hughes,jose34@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO54541,3,2021-08-18,Jose Hughes,jose34@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
 SO54531,1,2021-08-18,Meghan Martin,meghan0@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
-SO54569,1,2021-08-18,Roberto Jiménez,roberto5@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO54569,2,2021-08-18,Roberto Jiménez,roberto5@adventure-works.com,Touring Tire,1,28.99,2.3192
-SO54569,3,2021-08-18,Roberto Jiménez,roberto5@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO54569,4,2021-08-18,Roberto Jiménez,roberto5@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO54569,1,2021-08-18,Roberto Jim�nez,roberto5@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO54569,2,2021-08-18,Roberto Jim�nez,roberto5@adventure-works.com,Touring Tire,1,28.99,2.3192
+SO54569,3,2021-08-18,Roberto Jim�nez,roberto5@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO54569,4,2021-08-18,Roberto Jim�nez,roberto5@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO54576,1,2021-08-18,Arianna Ross,arianna4@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
 SO54576,2,2021-08-18,Arianna Ross,arianna4@adventure-works.com,"Racing Socks, M",1,8.99,0.7192
 SO54580,1,2021-08-18,Samuel Gonzales,samuel16@adventure-works.com,"Touring-3000 Yellow, 44",1,742.35,59.388
@@ -9198,9 +9197,9 @@ SO54629,2,2021-08-19,Jeremiah Hayes,jeremiah38@adventure-works.com,"Sport-100 He
 SO54619,1,2021-08-19,Pieter Uittenbogaard,pieter1@adventure-works.com,"Women's Mountain Shorts, S",1,69.99,5.5992
 SO54625,1,2021-08-19,Amanda Butler,amanda35@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO54625,2,2021-08-19,Amanda Butler,amanda35@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO54628,1,2021-08-19,Jésus Carlson,jésus17@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO54628,2,2021-08-19,Jésus Carlson,jésus17@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO54628,3,2021-08-19,Jésus Carlson,jésus17@adventure-works.com,Hitch Rack - 4-Bike,1,120.00,9.60
+SO54628,1,2021-08-19,J�sus Carlson,j�sus17@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO54628,2,2021-08-19,J�sus Carlson,j�sus17@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
+SO54628,3,2021-08-19,J�sus Carlson,j�sus17@adventure-works.com,Hitch Rack - 4-Bike,1,120.00,9.60
 SO54634,1,2021-08-19,Lance Alvarez,lance4@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO54634,2,2021-08-19,Lance Alvarez,lance4@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO54587,1,2021-08-19,Troy Sai,troy6@adventure-works.com,"Road-550-W Yellow, 44",1,1120.49,89.6392
@@ -9472,8 +9471,8 @@ SO54732,2,2021-08-21,Richard Watson,richard80@adventure-works.com,ML Mountain Ti
 SO54732,3,2021-08-21,Richard Watson,richard80@adventure-works.com,Hitch Rack - 4-Bike,1,120.00,9.60
 SO54731,1,2021-08-21,Jordan Hill,jordan67@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
 SO54731,2,2021-08-21,Jordan Hill,jordan67@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO54744,1,2021-08-21,Jésus Gutierrez,jésus10@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO54744,2,2021-08-21,Jésus Gutierrez,jésus10@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO54744,1,2021-08-21,J�sus Gutierrez,j�sus10@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO54744,2,2021-08-21,J�sus Gutierrez,j�sus10@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO54760,1,2021-08-21,Alan Xu,alan15@adventure-works.com,"Road-250 Black, 58",1,2443.35,195.468
 SO54760,2,2021-08-21,Alan Xu,alan15@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO54759,1,2021-08-21,Laura Zheng,laura25@adventure-works.com,"Mountain-400-W Silver, 42",1,769.49,61.5592
@@ -10128,9 +10127,9 @@ SO55070,1,2021-08-27,Charles Bell,charles62@adventure-works.com,Touring Tire Tub
 SO55070,2,2021-08-27,Charles Bell,charles62@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO55072,1,2021-08-27,Grace Walker,grace22@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO55072,2,2021-08-27,Grace Walker,grace22@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO55078,1,2021-08-27,Andy Jiménez,andy10@adventure-works.com,"Touring-2000 Blue, 60",1,1214.85,97.188
-SO55078,2,2021-08-27,Andy Jiménez,andy10@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO55078,3,2021-08-27,Andy Jiménez,andy10@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO55078,1,2021-08-27,Andy Jim�nez,andy10@adventure-works.com,"Touring-2000 Blue, 60",1,1214.85,97.188
+SO55078,2,2021-08-27,Andy Jim�nez,andy10@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO55078,3,2021-08-27,Andy Jim�nez,andy10@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO55031,1,2021-08-27,Jill Murphy,jill31@adventure-works.com,"Road-550-W Yellow, 42",1,1120.49,89.6392
 SO55087,1,2021-08-27,Alexandria Ross,alexandria4@adventure-works.com,"Touring-1000 Yellow, 54",1,2384.07,190.7256
 SO55087,2,2021-08-27,Alexandria Ross,alexandria4@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
@@ -10580,9 +10579,9 @@ SO55193,2,2021-08-30,Ana Perry,ana7@adventure-works.com,"Long-Sleeve Logo Jersey
 SO55193,3,2021-08-30,Ana Perry,ana7@adventure-works.com,"Half-Finger Gloves, L",1,24.49,1.9592
 SO55191,2,2021-08-30,Jose Flores,jose6@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO55191,1,2021-08-30,Jose Flores,jose6@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO55190,1,2021-08-30,José Hernandez,josé54@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO55190,2,2021-08-30,José Hernandez,josé54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO55190,3,2021-08-30,José Hernandez,josé54@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
+SO55190,1,2021-08-30,Jos� Hernandez,jos�54@adventure-works.com,Road Tire Tube,1,3.99,0.3192
+SO55190,2,2021-08-30,Jos� Hernandez,jos�54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO55190,3,2021-08-30,Jos� Hernandez,jos�54@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
 SO55189,1,2021-08-30,Angela James,angela34@adventure-works.com,"Classic Vest, S",1,63.50,5.08
 SO55189,2,2021-08-30,Angela James,angela34@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO55215,1,2021-08-30,Angela James,angela34@adventure-works.com,HL Mountain Tire,1,35.00,2.80
@@ -10687,9 +10686,9 @@ SO55340,1,2021-08-31,Ivan Gonzalez,ivan15@adventure-works.com,Touring Tire,1,28.
 SO55354,1,2021-08-31,Arthur Torres,arthur36@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
 SO55354,2,2021-08-31,Arthur Torres,arthur36@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO55354,3,2021-08-31,Arthur Torres,arthur36@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
-SO55363,1,2021-08-31,Andre Kovár,andre4@adventure-works.com,Touring Tire,1,28.99,2.3192
-SO55363,2,2021-08-31,Andre Kovár,andre4@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO55363,3,2021-08-31,Andre Kovár,andre4@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO55363,1,2021-08-31,Andre Kov�r,andre4@adventure-works.com,Touring Tire,1,28.99,2.3192
+SO55363,2,2021-08-31,Andre Kov�r,andre4@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO55363,3,2021-08-31,Andre Kov�r,andre4@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO55381,1,2021-08-31,Thomas Garcia,thomas78@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
 SO55381,2,2021-08-31,Thomas Garcia,thomas78@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO55348,1,2021-08-31,Olivia Jones,olivia3@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
@@ -11091,7 +11090,7 @@ SO55543,5,2021-09-03,Ricardo Nath,ricardo17@adventure-works.com,"Half-Finger Glo
 SO55512,1,2021-09-03,Alison Raje,alison14@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
 SO55505,1,2021-09-03,Kevin Coleman,kevin9@adventure-works.com,"Mountain-200 Silver, 42",1,2319.99,185.5992
 SO55505,2,2021-09-03,Kevin Coleman,kevin9@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
-SO55519,1,2021-09-03,José Hernandez,josé54@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
+SO55519,1,2021-09-03,Jos� Hernandez,jos�54@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO55551,3,2021-09-03,Kelli Cai,kelli21@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO55551,4,2021-09-03,Kelli Cai,kelli21@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO55551,1,2021-09-03,Kelli Cai,kelli21@adventure-works.com,"Road-750 Black, 44",1,539.99,43.1992
@@ -12191,7 +12190,7 @@ SO55922,1,2021-09-10,Yolanda Chander,yolanda14@adventure-works.com,"Road-550-W Y
 SO55922,2,2021-09-10,Yolanda Chander,yolanda14@adventure-works.com,"Short-Sleeve Classic Jersey, S",1,53.99,4.3192
 SO55943,1,2021-09-10,Ann Arun,ann12@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO55943,2,2021-09-10,Ann Arun,ann12@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
-SO55945,1,2021-09-10,Jésus Romero,jésus8@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
+SO55945,1,2021-09-10,J�sus Romero,j�sus8@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO55946,1,2021-09-10,Kelli Rai,kelli40@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO55946,2,2021-09-10,Kelli Rai,kelli40@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO55946,3,2021-09-10,Kelli Rai,kelli40@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
@@ -12771,11 +12770,11 @@ SO56200,2,2021-09-15,Samuel Lal,samuel26@adventure-works.com,Water Bottle - 30 o
 SO56200,3,2021-09-15,Samuel Lal,samuel26@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO56200,4,2021-09-15,Samuel Lal,samuel26@adventure-works.com,"Racing Socks, L",1,8.99,0.7192
 SO56212,1,2021-09-15,Cole Watson,cole1@adventure-works.com,"Mountain-500 Black, 52",1,539.99,43.1992
-SO56190,3,2021-09-15,Orlando Jiménez,orlando6@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO56190,4,2021-09-15,Orlando Jiménez,orlando6@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
-SO56190,5,2021-09-15,Orlando Jiménez,orlando6@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO56190,1,2021-09-15,Orlando Jiménez,orlando6@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO56190,2,2021-09-15,Orlando Jiménez,orlando6@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
+SO56190,3,2021-09-15,Orlando Jim�nez,orlando6@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
+SO56190,4,2021-09-15,Orlando Jim�nez,orlando6@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
+SO56190,5,2021-09-15,Orlando Jim�nez,orlando6@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO56190,1,2021-09-15,Orlando Jim�nez,orlando6@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO56190,2,2021-09-15,Orlando Jim�nez,orlando6@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO56189,1,2021-09-15,Alyssa Martin,alyssa14@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO56193,1,2021-09-15,Dennis Zhao,dennis12@adventure-works.com,"Road-250 Black, 58",1,2443.35,195.468
 SO56193,2,2021-09-15,Dennis Zhao,dennis12@adventure-works.com,Road Tire Tube,1,3.99,0.3192
@@ -12800,8 +12799,8 @@ SO56199,1,2021-09-15,Andrew Smith,andrew9@adventure-works.com,HL Road Tire,1,32.
 SO56205,1,2021-09-15,Amanda Morgan,amanda4@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO56205,2,2021-09-15,Amanda Morgan,amanda4@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO56205,3,2021-09-15,Amanda Morgan,amanda4@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO56206,1,2021-09-15,Hector Muñoz,hector5@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO56206,2,2021-09-15,Hector Muñoz,hector5@adventure-works.com,"Short-Sleeve Classic Jersey, S",1,53.99,4.3192
+SO56206,1,2021-09-15,Hector Mu�oz,hector5@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
+SO56206,2,2021-09-15,Hector Mu�oz,hector5@adventure-works.com,"Short-Sleeve Classic Jersey, S",1,53.99,4.3192
 SO56191,1,2021-09-15,Rafael Lin,rafael8@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO56191,2,2021-09-15,Rafael Lin,rafael8@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO56218,1,2021-09-15,Stacy Diaz,stacy4@adventure-works.com,"Mountain-200 Black, 42",1,2294.99,183.5992
@@ -13551,17 +13550,17 @@ SO56530,2,2021-09-21,Holly Fernandez,holly15@adventure-works.com,HL Mountain Tir
 SO56530,3,2021-09-21,Holly Fernandez,holly15@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO56495,1,2021-09-21,Kristy Gill,kristy12@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
 SO56495,2,2021-09-21,Kristy Gill,kristy12@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
-SO56511,1,2021-09-21,José Martinez,josé79@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO56511,2,2021-09-21,José Martinez,josé79@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
+SO56511,1,2021-09-21,Jos� Martinez,jos�79@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
+SO56511,2,2021-09-21,Jos� Martinez,jos�79@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
 SO56485,5,2021-09-21,Briana Torres,briana11@adventure-works.com,"Racing Socks, M",1,8.99,0.7192
 SO56485,1,2021-09-21,Briana Torres,briana11@adventure-works.com,"Mountain-200 Black, 46",1,2294.99,183.5992
 SO56485,2,2021-09-21,Briana Torres,briana11@adventure-works.com,HL Mountain Tire,1,35.00,2.80
 SO56485,3,2021-09-21,Briana Torres,briana11@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO56485,4,2021-09-21,Briana Torres,briana11@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO56486,1,2021-09-21,Jésus Munoz,jésus6@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
-SO56486,2,2021-09-21,Jésus Munoz,jésus6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
-SO56486,3,2021-09-21,Jésus Munoz,jésus6@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO56486,4,2021-09-21,Jésus Munoz,jésus6@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
+SO56486,1,2021-09-21,J�sus Munoz,j�sus6@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
+SO56486,2,2021-09-21,J�sus Munoz,j�sus6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
+SO56486,3,2021-09-21,J�sus Munoz,j�sus6@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO56486,4,2021-09-21,J�sus Munoz,j�sus6@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
 SO56510,1,2021-09-21,Isaac Oliver,isaac31@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
 SO56510,2,2021-09-21,Isaac Oliver,isaac31@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO56512,1,2021-09-21,Justin Patterson,justin7@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
@@ -13806,7 +13805,7 @@ SO56642,2,2021-09-23,Kaitlin Gonzalez,kaitlin17@adventure-works.com,LL Road Tire
 SO56642,3,2021-09-23,Kaitlin Gonzalez,kaitlin17@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO56604,1,2021-09-23,Tracy Deng,tracy3@adventure-works.com,HL Mountain Tire,1,35.00,2.80
 SO56604,2,2021-09-23,Tracy Deng,tracy3@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO56629,1,2021-09-23,Orlando Muñoz,orlando7@adventure-works.com,LL Road Tire,1,21.49,1.7192
+SO56629,1,2021-09-23,Orlando Mu�oz,orlando7@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO56617,1,2021-09-23,Sara Green,sara41@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO56617,2,2021-09-23,Sara Green,sara41@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO56628,1,2021-09-23,Edgar Vance,edgar4@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -14160,10 +14159,10 @@ SO56749,3,2021-09-25,Candice She,candice7@adventure-works.com,Road Bottle Cage,1
 SO56749,4,2021-09-25,Candice She,candice7@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
 SO56749,1,2021-09-25,Candice She,candice7@adventure-works.com,"Touring-1000 Blue, 46",1,2384.07,190.7256
 SO56749,2,2021-09-25,Candice She,candice7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO56748,4,2021-09-25,Alícia Anand,alícia18@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO56748,1,2021-09-25,Alícia Anand,alícia18@adventure-works.com,"Touring-1000 Yellow, 50",1,2384.07,190.7256
-SO56748,2,2021-09-25,Alícia Anand,alícia18@adventure-works.com,Touring Tire,1,28.99,2.3192
-SO56748,3,2021-09-25,Alícia Anand,alícia18@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO56748,4,2021-09-25,Al�cia Anand,al�cia18@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
+SO56748,1,2021-09-25,Al�cia Anand,al�cia18@adventure-works.com,"Touring-1000 Yellow, 50",1,2384.07,190.7256
+SO56748,2,2021-09-25,Al�cia Anand,al�cia18@adventure-works.com,Touring Tire,1,28.99,2.3192
+SO56748,3,2021-09-25,Al�cia Anand,al�cia18@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO56710,1,2021-09-25,Andrew Lan,andrew8@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO56710,2,2021-09-25,Andrew Lan,andrew8@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO56711,1,2021-09-25,Thomas Parker,thomas36@adventure-works.com,Road Tire Tube,1,3.99,0.3192
@@ -14417,11 +14416,11 @@ SO56884,1,2021-09-28,Frederick Patel,frederick2@adventure-works.com,Water Bottle
 SO56860,1,2021-09-28,Erik Sanz,erik20@adventure-works.com,"Road-250 Red, 58",1,2443.35,195.468
 SO56886,1,2021-09-28,Craig Suarez,craig18@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO56886,2,2021-09-28,Craig Suarez,craig18@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
-SO56903,1,2021-09-28,Beth Jiménez,beth8@adventure-works.com,"Mountain-200 Black, 42",1,2294.99,183.5992
-SO56903,2,2021-09-28,Beth Jiménez,beth8@adventure-works.com,HL Mountain Tire,1,35.00,2.80
-SO56903,3,2021-09-28,Beth Jiménez,beth8@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO56903,4,2021-09-28,Beth Jiménez,beth8@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
-SO56903,5,2021-09-28,Beth Jiménez,beth8@adventure-works.com,"Half-Finger Gloves, M",1,24.49,1.9592
+SO56903,1,2021-09-28,Beth Jim�nez,beth8@adventure-works.com,"Mountain-200 Black, 42",1,2294.99,183.5992
+SO56903,2,2021-09-28,Beth Jim�nez,beth8@adventure-works.com,HL Mountain Tire,1,35.00,2.80
+SO56903,3,2021-09-28,Beth Jim�nez,beth8@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO56903,4,2021-09-28,Beth Jim�nez,beth8@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
+SO56903,5,2021-09-28,Beth Jim�nez,beth8@adventure-works.com,"Half-Finger Gloves, M",1,24.49,1.9592
 SO56861,1,2021-09-28,Devin Brooks,devin63@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO56861,2,2021-09-28,Devin Brooks,devin63@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO56869,1,2021-09-28,Brandy Chandra,brandy20@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
@@ -14532,11 +14531,11 @@ SO56942,3,2021-09-29,Preston Sai,preston4@adventure-works.com,"Long-Sleeve Logo 
 SO56947,1,2021-09-29,Lacey Li,lacey15@adventure-works.com,"Mountain-500 Silver, 52",1,564.99,45.1992
 SO56913,1,2021-09-29,Olivia Griffin,olivia66@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO56913,2,2021-09-29,Olivia Griffin,olivia66@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO56956,1,2021-09-29,Jésus Gill,jésus12@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
-SO56956,2,2021-09-29,Jésus Gill,jésus12@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO56956,3,2021-09-29,Jésus Gill,jésus12@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
-SO56956,4,2021-09-29,Jésus Gill,jésus12@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO56956,5,2021-09-29,Jésus Gill,jésus12@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
+SO56956,1,2021-09-29,J�sus Gill,j�sus12@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
+SO56956,2,2021-09-29,J�sus Gill,j�sus12@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO56956,3,2021-09-29,J�sus Gill,j�sus12@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO56956,4,2021-09-29,J�sus Gill,j�sus12@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO56956,5,2021-09-29,J�sus Gill,j�sus12@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
 SO56923,3,2021-09-29,Blake Martin,blake14@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO56923,1,2021-09-29,Blake Martin,blake14@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO56923,2,2021-09-29,Blake Martin,blake14@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -16026,8 +16025,8 @@ SO57738,4,2021-10-10,Wyatt Williams,wyatt2@adventure-works.com,All-Purpose Bike 
 SO57738,1,2021-10-10,Wyatt Williams,wyatt2@adventure-works.com,"Road-250 Red, 58",1,2443.35,195.468
 SO57738,2,2021-10-10,Wyatt Williams,wyatt2@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO57739,1,2021-10-10,Robin Carlson,robin14@adventure-works.com,"Road-250 Black, 48",1,2443.35,195.468
-SO57733,1,2021-10-10,Niñia Anand,niñia0@adventure-works.com,"Road-250 Black, 52",1,2443.35,195.468
-SO57733,2,2021-10-10,Niñia Anand,niñia0@adventure-works.com,HL Road Tire,1,32.60,2.608
+SO57733,1,2021-10-10,Ni�ia Anand,ni�ia0@adventure-works.com,"Road-250 Black, 52",1,2443.35,195.468
+SO57733,2,2021-10-10,Ni�ia Anand,ni�ia0@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO57714,1,2021-10-10,Victoria Alexander,victoria65@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO57714,2,2021-10-10,Victoria Alexander,victoria65@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
 SO57714,3,2021-10-10,Victoria Alexander,victoria65@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
@@ -18288,8 +18287,8 @@ SO58625,1,2021-10-26,Rafael Luo,rafael29@adventure-works.com,"Touring-3000 Blue,
 SO58625,2,2021-10-26,Rafael Luo,rafael29@adventure-works.com,Touring Tire,1,28.99,2.3192
 SO58625,3,2021-10-26,Rafael Luo,rafael29@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
 SO58625,4,2021-10-26,Rafael Luo,rafael29@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO58592,1,2021-10-26,Jésus Vazquez,jésus13@adventure-works.com,"Women's Mountain Shorts, M",1,69.99,5.5992
-SO58592,2,2021-10-26,Jésus Vazquez,jésus13@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO58592,1,2021-10-26,J�sus Vazquez,j�sus13@adventure-works.com,"Women's Mountain Shorts, M",1,69.99,5.5992
+SO58592,2,2021-10-26,J�sus Vazquez,j�sus13@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO58610,1,2021-10-26,Jared Sanchez,jared19@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO58610,2,2021-10-26,Jared Sanchez,jared19@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO58610,3,2021-10-26,Jared Sanchez,jared19@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
@@ -18515,10 +18514,10 @@ SO58761,2,2021-10-28,Marcus Wright,marcus30@adventure-works.com,Fender Set - Mou
 SO58761,3,2021-10-28,Marcus Wright,marcus30@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO58759,1,2021-10-28,Alyssa Davis,alyssa4@adventure-works.com,"Mountain-200 Silver, 42",1,2319.99,185.5992
 SO58759,2,2021-10-28,Alyssa Davis,alyssa4@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
-SO58776,1,2021-10-28,Jésus Serrano,jésus15@adventure-works.com,"Touring-2000 Blue, 54",1,1214.85,97.188
-SO58776,2,2021-10-28,Jésus Serrano,jésus15@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO58776,3,2021-10-28,Jésus Serrano,jésus15@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO58776,4,2021-10-28,Jésus Serrano,jésus15@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO58776,1,2021-10-28,J�sus Serrano,j�sus15@adventure-works.com,"Touring-2000 Blue, 54",1,1214.85,97.188
+SO58776,2,2021-10-28,J�sus Serrano,j�sus15@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO58776,3,2021-10-28,J�sus Serrano,j�sus15@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO58776,4,2021-10-28,J�sus Serrano,j�sus15@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO58720,1,2021-10-28,Ashley Lewis,ashley22@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO58733,1,2021-10-28,Krista Gomez,krista1@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
 SO58733,2,2021-10-28,Krista Gomez,krista1@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
@@ -19417,10 +19416,10 @@ SO59252,1,2021-11-02,Donald Fernandez,donald17@adventure-works.com,"Road-550-W Y
 SO59252,2,2021-11-02,Donald Fernandez,donald17@adventure-works.com,"Short-Sleeve Classic Jersey, S",1,53.99,4.3192
 SO59217,1,2021-11-02,Cynthia Perez,cynthia27@adventure-works.com,"Mountain-500 Silver, 42",1,564.99,45.1992
 SO59217,2,2021-11-02,Cynthia Perez,cynthia27@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO59261,1,2021-11-02,José Lopez,josé60@adventure-works.com,"Touring-1000 Yellow, 46",1,2384.07,190.7256
-SO59261,2,2021-11-02,José Lopez,josé60@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
-SO59261,3,2021-11-02,José Lopez,josé60@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO59261,4,2021-11-02,José Lopez,josé60@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
+SO59261,1,2021-11-02,Jos� Lopez,jos�60@adventure-works.com,"Touring-1000 Yellow, 46",1,2384.07,190.7256
+SO59261,2,2021-11-02,Jos� Lopez,jos�60@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO59261,3,2021-11-02,Jos� Lopez,jos�60@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO59261,4,2021-11-02,Jos� Lopez,jos�60@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO59260,1,2021-11-02,Allison Mitchell,allison34@adventure-works.com,"Touring-1000 Yellow, 54",1,2384.07,190.7256
 SO59260,2,2021-11-02,Allison Mitchell,allison34@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO59225,1,2021-11-02,Cindy Edwards,cindy20@adventure-works.com,Touring Tire,1,28.99,2.3192
@@ -19794,8 +19793,8 @@ SO59402,1,2021-11-04,Carmen Subram,carmen16@adventure-works.com,"Touring-1000 Bl
 SO59402,2,2021-11-04,Carmen Subram,carmen16@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO59471,1,2021-11-05,Thomas Jones,thomas63@adventure-works.com,"Touring-1000 Yellow, 50",1,2384.07,190.7256
 SO59471,2,2021-11-05,Thomas Jones,thomas63@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO59472,1,2021-11-05,Jorge Leitão,jorge0@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
-SO59472,2,2021-11-05,Jorge Leitão,jorge0@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO59472,1,2021-11-05,Jorge Leit�o,jorge0@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
+SO59472,2,2021-11-05,Jorge Leit�o,jorge0@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO59470,1,2021-11-05,Marcus Gonzales,marcus67@adventure-works.com,"Touring-1000 Yellow, 54",1,2384.07,190.7256
 SO59470,2,2021-11-05,Marcus Gonzales,marcus67@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO59470,3,2021-11-05,Marcus Gonzales,marcus67@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -19847,9 +19846,9 @@ SO59485,1,2021-11-05,Terrence Carson,terrence15@adventure-works.com,"Mountain-40
 SO59424,1,2021-11-05,Henry Garcia,henry16@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO59424,2,2021-11-05,Henry Garcia,henry16@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO59424,3,2021-11-05,Henry Garcia,henry16@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO59428,1,2021-11-05,José Hernandez,josé54@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
-SO59428,2,2021-11-05,José Hernandez,josé54@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO59428,3,2021-11-05,José Hernandez,josé54@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
+SO59428,1,2021-11-05,Jos� Hernandez,jos�54@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
+SO59428,2,2021-11-05,Jos� Hernandez,jos�54@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO59428,3,2021-11-05,Jos� Hernandez,jos�54@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO59421,1,2021-11-05,Ana Perry,ana7@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO59414,1,2021-11-05,Theodore Gill,theodore14@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO59414,2,2021-11-05,Theodore Gill,theodore14@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
@@ -19876,10 +19875,10 @@ SO59452,1,2021-11-05,Alexia Coleman,alexia6@adventure-works.com,"Mountain-200 Si
 SO59452,2,2021-11-05,Alexia Coleman,alexia6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO59454,1,2021-11-05,Gail Griffin,gail7@adventure-works.com,"Mountain-200 Black, 38",1,2294.99,183.5992
 SO59454,2,2021-11-05,Gail Griffin,gail7@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO59409,1,2021-11-05,Craig Jiménez,craig6@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
-SO59409,2,2021-11-05,Craig Jiménez,craig6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
-SO59409,3,2021-11-05,Craig Jiménez,craig6@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO59409,4,2021-11-05,Craig Jiménez,craig6@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO59409,1,2021-11-05,Craig Jim�nez,craig6@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
+SO59409,2,2021-11-05,Craig Jim�nez,craig6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
+SO59409,3,2021-11-05,Craig Jim�nez,craig6@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO59409,4,2021-11-05,Craig Jim�nez,craig6@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO59445,2,2021-11-05,Michelle Stone,michelle23@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO59445,3,2021-11-05,Michelle Stone,michelle23@adventure-works.com,"Half-Finger Gloves, L",1,24.49,1.9592
 SO59445,1,2021-11-05,Michelle Stone,michelle23@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
@@ -20145,20 +20144,20 @@ SO59561,3,2021-11-06,Candace Fernandez,candace15@adventure-works.com,Bike Wash -
 SO59536,1,2021-11-06,Jocelyn Alexander,jocelyn18@adventure-works.com,HL Mountain Tire,1,35.00,2.80
 SO59510,1,2021-11-06,Ryan Thompson,ryan38@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO59510,2,2021-11-06,Ryan Thompson,ryan38@adventure-works.com,"Half-Finger Gloves, M",1,24.49,1.9592
-SO59578,1,2021-11-06,Ruben Muñoz,ruben30@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
-SO59578,2,2021-11-06,Ruben Muñoz,ruben30@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO59578,3,2021-11-06,Ruben Muñoz,ruben30@adventure-works.com,"Classic Vest, M",1,63.50,5.08
+SO59578,1,2021-11-06,Ruben Mu�oz,ruben30@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
+SO59578,2,2021-11-06,Ruben Mu�oz,ruben30@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
+SO59578,3,2021-11-06,Ruben Mu�oz,ruben30@adventure-works.com,"Classic Vest, M",1,63.50,5.08
 SO59499,1,2021-11-06,Grant Tang,grant6@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO59499,2,2021-11-06,Grant Tang,grant6@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
 SO59499,3,2021-11-06,Grant Tang,grant6@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO59515,1,2021-11-06,Tyler Garcia,tyler12@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
 SO59515,2,2021-11-06,Tyler Garcia,tyler12@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO59515,3,2021-11-06,Tyler Garcia,tyler12@adventure-works.com,All-Purpose Bike Stand,1,159.00,12.72
-SO59573,1,2021-11-06,Casey Jiménez,casey29@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
-SO59573,2,2021-11-06,Casey Jiménez,casey29@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
-SO59573,3,2021-11-06,Casey Jiménez,casey29@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO59573,4,2021-11-06,Casey Jiménez,casey29@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
-SO59573,5,2021-11-06,Casey Jiménez,casey29@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO59573,1,2021-11-06,Casey Jim�nez,casey29@adventure-works.com,"Road-750 Black, 58",1,539.99,43.1992
+SO59573,2,2021-11-06,Casey Jim�nez,casey29@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO59573,3,2021-11-06,Casey Jim�nez,casey29@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO59573,4,2021-11-06,Casey Jim�nez,casey29@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
+SO59573,5,2021-11-06,Casey Jim�nez,casey29@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO59574,1,2021-11-06,Bailey Gray,bailey4@adventure-works.com,"Road-750 Black, 52",1,539.99,43.1992
 SO59574,2,2021-11-06,Bailey Gray,bailey4@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO59574,3,2021-11-06,Bailey Gray,bailey4@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
@@ -20179,9 +20178,9 @@ SO59526,2,2021-11-06,Bernard Thames,bernard1@adventure-works.com,"Classic Vest, 
 SO59525,1,2021-11-06,Olivia Bailey,olivia32@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO59503,1,2021-11-06,Cassandra Perez,cassandra22@adventure-works.com,"Road-350-W Yellow, 48",1,1700.99,136.0792
 SO59503,2,2021-11-06,Cassandra Perez,cassandra22@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
-SO59572,1,2021-11-06,Cesar Sánchez,cesar20@adventure-works.com,"Road-550-W Yellow, 44",1,1120.49,89.6392
-SO59572,2,2021-11-06,Cesar Sánchez,cesar20@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
-SO59572,3,2021-11-06,Cesar Sánchez,cesar20@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO59572,1,2021-11-06,Cesar S�nchez,cesar20@adventure-works.com,"Road-550-W Yellow, 44",1,1120.49,89.6392
+SO59572,2,2021-11-06,Cesar S�nchez,cesar20@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
+SO59572,3,2021-11-06,Cesar S�nchez,cesar20@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO59505,1,2021-11-06,Cassie Xu,cassie3@adventure-works.com,"Road-350-W Yellow, 48",1,1700.99,136.0792
 SO59534,1,2021-11-06,Rafael Zhang,rafael0@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO59534,2,2021-11-06,Rafael Zhang,rafael0@adventure-works.com,Touring Tire,1,28.99,2.3192
@@ -20810,9 +20809,9 @@ SO59822,2,2021-11-10,Tony Anand,tony24@adventure-works.com,Water Bottle - 30 oz.
 SO59822,3,2021-11-10,Tony Anand,tony24@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO59823,1,2021-11-10,Kaitlyn Ward,kaitlyn59@adventure-works.com,"Touring-1000 Blue, 54",1,2384.07,190.7256
 SO59821,1,2021-11-10,Riley Flores,riley10@adventure-works.com,"Touring-2000 Blue, 46",1,1214.85,97.188
-SO59794,1,2021-11-10,Jésus Alvarez,jésus5@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO59794,2,2021-11-10,Jésus Alvarez,jésus5@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO59794,3,2021-11-10,Jésus Alvarez,jésus5@adventure-works.com,"Long-Sleeve Logo Jersey, S",1,49.99,3.9992
+SO59794,1,2021-11-10,J�sus Alvarez,j�sus5@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO59794,2,2021-11-10,J�sus Alvarez,j�sus5@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
+SO59794,3,2021-11-10,J�sus Alvarez,j�sus5@adventure-works.com,"Long-Sleeve Logo Jersey, S",1,49.99,3.9992
 SO59810,3,2021-11-10,Abby Garcia,abby12@adventure-works.com,"Half-Finger Gloves, L",1,24.49,1.9592
 SO59810,1,2021-11-10,Abby Garcia,abby12@adventure-works.com,"Touring-2000 Blue, 54",1,1214.85,97.188
 SO59810,2,2021-11-10,Abby Garcia,abby12@adventure-works.com,"Short-Sleeve Classic Jersey, L",1,53.99,4.3192
@@ -21352,8 +21351,8 @@ SO59988,1,2021-11-13,Lance Romero,lance9@adventure-works.com,LL Road Tire,1,21.4
 SO60011,1,2021-11-13,Sydney Davis,sydney69@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO60011,2,2021-11-13,Sydney Davis,sydney69@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO60011,3,2021-11-13,Sydney Davis,sydney69@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO60014,1,2021-11-13,Jésus Gutierrez,jésus10@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO60014,2,2021-11-13,Jésus Gutierrez,jésus10@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
+SO60014,1,2021-11-13,J�sus Gutierrez,j�sus10@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO60014,2,2021-11-13,J�sus Gutierrez,j�sus10@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO60010,1,2021-11-13,Troy Perez,troy23@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO60010,2,2021-11-13,Troy Perez,troy23@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO60006,2,2021-11-13,Louis Shan,louis27@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
@@ -22103,9 +22102,9 @@ SO60320,1,2021-11-18,Robyn Carlson,robyn14@adventure-works.com,"Mountain-200 Bla
 SO60320,2,2021-11-18,Robyn Carlson,robyn14@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
 SO60321,1,2021-11-18,Katrina Tang,katrina3@adventure-works.com,"Mountain-200 Silver, 38",1,2319.99,185.5992
 SO60321,2,2021-11-18,Katrina Tang,katrina3@adventure-works.com,Hitch Rack - 4-Bike,1,120.00,9.60
-SO60318,1,2021-11-18,José Saraiva,josé5@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
-SO60318,2,2021-11-18,José Saraiva,josé5@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO60318,3,2021-11-18,José Saraiva,josé5@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
+SO60318,1,2021-11-18,Jos� Saraiva,jos�5@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
+SO60318,2,2021-11-18,Jos� Saraiva,jos�5@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO60318,3,2021-11-18,Jos� Saraiva,jos�5@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO60377,2,2021-11-18,Robyn Munoz,robyn5@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO60377,3,2021-11-18,Robyn Munoz,robyn5@adventure-works.com,Touring Tire,1,28.99,2.3192
 SO60377,4,2021-11-18,Robyn Munoz,robyn5@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
@@ -22231,9 +22230,9 @@ SO60381,4,2021-11-18,Marie Ruiz,marie26@adventure-works.com,Patch Kit/8 Patches,
 SO60351,1,2021-11-18,Bruce Martin,bruce22@adventure-works.com,ML Road Tire,1,24.99,1.9992
 SO60378,1,2021-11-18,Reginald Travers,reginald19@adventure-works.com,"Touring-3000 Yellow, 50",1,742.35,59.388
 SO60379,1,2021-11-18,Dennis Liu,dennis5@adventure-works.com,"Touring-3000 Blue, 50",1,742.35,59.388
-SO60332,1,2021-11-18,Darren Jiménez,darren27@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO60332,2,2021-11-18,Darren Jiménez,darren27@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO60332,3,2021-11-18,Darren Jiménez,darren27@adventure-works.com,All-Purpose Bike Stand,1,159.00,12.72
+SO60332,1,2021-11-18,Darren Jim�nez,darren27@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO60332,2,2021-11-18,Darren Jim�nez,darren27@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
+SO60332,3,2021-11-18,Darren Jim�nez,darren27@adventure-works.com,All-Purpose Bike Stand,1,159.00,12.72
 SO60439,1,2021-11-19,Theodore Gutierrez,theodore11@adventure-works.com,"Touring-1000 Blue, 46",1,2384.07,190.7256
 SO60412,1,2021-11-19,Sheena Kennedy,sheena6@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO60412,2,2021-11-19,Sheena Kennedy,sheena6@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
@@ -22364,9 +22363,9 @@ SO60390,1,2021-11-19,Kristy Ramos,kristy15@adventure-works.com,Road Tire Tube,1,
 SO60390,2,2021-11-19,Kristy Ramos,kristy15@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO60400,1,2021-11-19,Nicole Martinez,nicole17@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO60400,2,2021-11-19,Nicole Martinez,nicole17@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO60407,1,2021-11-19,Ramón Cai,ramón19@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
-SO60407,2,2021-11-19,Ramón Cai,ramón19@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
-SO60407,3,2021-11-19,Ramón Cai,ramón19@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
+SO60407,1,2021-11-19,Ram�n Cai,ram�n19@adventure-works.com,"Women's Mountain Shorts, L",1,69.99,5.5992
+SO60407,2,2021-11-19,Ram�n Cai,ram�n19@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
+SO60407,3,2021-11-19,Ram�n Cai,ram�n19@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
 SO60393,1,2021-11-19,John Garcia,john35@adventure-works.com,"Road-250 Black, 48",1,2443.35,195.468
 SO60393,2,2021-11-19,John Garcia,john35@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO60430,1,2021-11-19,Jonathon Gutierrez,jonathon8@adventure-works.com,"Road-550-W Yellow, 42",1,1120.49,89.6392
@@ -23166,8 +23165,8 @@ SO60720,1,2021-11-24,Omar Shan,omar30@adventure-works.com,"Short-Sleeve Classic 
 SO60720,2,2021-11-24,Omar Shan,omar30@adventure-works.com,"Half-Finger Gloves, L",1,24.49,1.9592
 SO60710,1,2021-11-24,Hunter Perez,hunter32@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO60710,2,2021-11-24,Hunter Perez,hunter32@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO60744,2,2021-11-24,Jésus Martin,jésus1@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
-SO60744,1,2021-11-24,Jésus Martin,jésus1@adventure-works.com,"Road-750 Black, 44",1,539.99,43.1992
+SO60744,2,2021-11-24,J�sus Martin,j�sus1@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO60744,1,2021-11-24,J�sus Martin,j�sus1@adventure-works.com,"Road-750 Black, 44",1,539.99,43.1992
 SO60719,1,2021-11-24,Micheal Ramos,micheal13@adventure-works.com,"Women's Mountain Shorts, M",1,69.99,5.5992
 SO60719,2,2021-11-24,Micheal Ramos,micheal13@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
 SO60719,3,2021-11-24,Micheal Ramos,micheal13@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
@@ -23209,9 +23208,9 @@ SO60800,1,2021-11-25,Clayton Lu,clayton10@adventure-works.com,Mountain Tire Tube
 SO60800,2,2021-11-25,Clayton Lu,clayton10@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
 SO60799,1,2021-11-25,Kari Alan,kari28@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO60799,2,2021-11-25,Kari Alan,kari28@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO60770,1,2021-11-25,Jésus Hernandez,jésus4@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
-SO60770,2,2021-11-25,Jésus Hernandez,jésus4@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO60770,3,2021-11-25,Jésus Hernandez,jésus4@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
+SO60770,1,2021-11-25,J�sus Hernandez,j�sus4@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
+SO60770,2,2021-11-25,J�sus Hernandez,j�sus4@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO60770,3,2021-11-25,J�sus Hernandez,j�sus4@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
 SO60782,1,2021-11-25,Daniel Thomas,daniel11@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO60782,2,2021-11-25,Daniel Thomas,daniel11@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO60782,3,2021-11-25,Daniel Thomas,daniel11@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
@@ -24125,11 +24124,11 @@ SO61122,4,2021-11-30,Miranda Gonzales,miranda17@adventure-works.com,"Sport-100 H
 SO61119,1,2021-11-30,Blake Green,blake32@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO61119,2,2021-11-30,Blake Green,blake32@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO61119,3,2021-11-30,Blake Green,blake32@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO61120,1,2021-11-30,José Hernandez,josé54@adventure-works.com,ML Road Tire,1,24.99,1.9992
-SO61120,2,2021-11-30,José Hernandez,josé54@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO61120,3,2021-11-30,José Hernandez,josé54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO61121,1,2021-11-30,José Hernandez,josé54@adventure-works.com,LL Road Tire,1,21.49,1.7192
-SO61121,2,2021-11-30,José Hernandez,josé54@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
+SO61120,1,2021-11-30,Jos� Hernandez,jos�54@adventure-works.com,ML Road Tire,1,24.99,1.9992
+SO61120,2,2021-11-30,Jos� Hernandez,jos�54@adventure-works.com,Road Tire Tube,1,3.99,0.3192
+SO61120,3,2021-11-30,Jos� Hernandez,jos�54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO61121,1,2021-11-30,Jos� Hernandez,jos�54@adventure-works.com,LL Road Tire,1,21.49,1.7192
+SO61121,2,2021-11-30,Jos� Hernandez,jos�54@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO61118,1,2021-11-30,Jennifer Simmons,jennifer88@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO61118,2,2021-11-30,Jennifer Simmons,jennifer88@adventure-works.com,"Half-Finger Gloves, M",1,24.49,1.9592
 SO61171,1,2021-11-30,Lisa Cai,lisa24@adventure-works.com,"Road-750 Black, 48",1,539.99,43.1992
@@ -24692,7 +24691,7 @@ SO61443,1,2021-12-04,Gina Martin,gina1@adventure-works.com,"Short-Sleeve Classic
 SO61444,1,2021-12-04,Dana Navarro,dana2@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO61444,2,2021-12-04,Dana Navarro,dana2@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO61444,3,2021-12-04,Dana Navarro,dana2@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO61430,1,2021-12-04,José Hernandez,josé54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO61430,1,2021-12-04,Jos� Hernandez,jos�54@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO61455,1,2021-12-04,Ana Perry,ana7@adventure-works.com,"Women's Mountain Shorts, S",1,69.99,5.5992
 SO61455,2,2021-12-04,Ana Perry,ana7@adventure-works.com,"Half-Finger Gloves, L",1,24.49,1.9592
 SO61449,1,2021-12-04,Samantha Jenkins,samantha32@adventure-works.com,Road Tire Tube,1,3.99,0.3192
@@ -25440,10 +25439,10 @@ SO61744,2,2021-12-09,Richard Reed,richard101@adventure-works.com,Water Bottle - 
 SO61780,1,2021-12-09,Maria Brooks,maria20@adventure-works.com,"Road-550-W Yellow, 48",1,1120.49,89.6392
 SO61780,2,2021-12-09,Maria Brooks,maria20@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO61780,3,2021-12-09,Maria Brooks,maria20@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO61773,1,2021-12-09,Jésus Blanco,jésus14@adventure-works.com,"Road-250 Black, 58",1,2443.35,195.468
-SO61773,2,2021-12-09,Jésus Blanco,jésus14@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
-SO61773,3,2021-12-09,Jésus Blanco,jésus14@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO61773,4,2021-12-09,Jésus Blanco,jésus14@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO61773,1,2021-12-09,J�sus Blanco,j�sus14@adventure-works.com,"Road-250 Black, 58",1,2443.35,195.468
+SO61773,2,2021-12-09,J�sus Blanco,j�sus14@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO61773,3,2021-12-09,J�sus Blanco,j�sus14@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO61773,4,2021-12-09,J�sus Blanco,j�sus14@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO61749,1,2021-12-09,Evan Ramirez,evan7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO61751,1,2021-12-09,David Lal,david61@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO61751,2,2021-12-09,David Lal,david61@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
@@ -25476,8 +25475,8 @@ SO61760,2,2021-12-09,Lee Serrano,lee15@adventure-works.com,Road Tire Tube,1,3.99
 SO61760,3,2021-12-09,Lee Serrano,lee15@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO61776,1,2021-12-09,Ethan Foster,ethan12@adventure-works.com,"Touring-1000 Blue, 50",1,2384.07,190.7256
 SO61738,1,2021-12-09,Phillip Smith,phillip9@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
-SO61816,1,2021-12-10,Jésus Ortega,jésus21@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO61816,2,2021-12-10,Jésus Ortega,jésus21@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
+SO61816,1,2021-12-10,J�sus Ortega,j�sus21@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO61816,2,2021-12-10,J�sus Ortega,j�sus21@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO61790,1,2021-12-10,Louis Chande,louis31@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO61790,2,2021-12-10,Louis Chande,louis31@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO61795,1,2021-12-10,Donna Deng,donna2@adventure-works.com,"Mountain-200 Silver, 46",1,2319.99,185.5992
@@ -25901,8 +25900,8 @@ SO61969,1,2021-12-12,Byron Carlson,byron12@adventure-works.com,"Touring-1000 Blu
 SO61969,2,2021-12-12,Byron Carlson,byron12@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO61969,3,2021-12-12,Byron Carlson,byron12@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
 SO61929,1,2021-12-12,Devin Martin,devin13@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO61926,1,2021-12-12,José Hernandez,josé54@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
-SO61927,1,2021-12-12,José Hernandez,josé54@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
+SO61926,1,2021-12-12,Jos� Hernandez,jos�54@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
+SO61927,1,2021-12-12,Jos� Hernandez,jos�54@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO61928,1,2021-12-12,Jared Peterson,jared8@adventure-works.com,"Short-Sleeve Classic Jersey, M",1,53.99,4.3192
 SO61961,1,2021-12-12,Vincent Zhou,vincent8@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO61961,2,2021-12-12,Vincent Zhou,vincent8@adventure-works.com,"Touring-1000 Blue, 46",1,2384.07,190.7256
@@ -25972,7 +25971,7 @@ SO61986,2,2021-12-13,Steve Sun,steve16@adventure-works.com,ML Mountain Tire,1,29
 SO61986,3,2021-12-13,Steve Sun,steve16@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO61986,4,2021-12-13,Steve Sun,steve16@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
 SO61986,1,2021-12-13,Steve Sun,steve16@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO62007,1,2021-12-13,Pedro Muñoz,pedro28@adventure-works.com,"Road-350-W Yellow, 40",1,1700.99,136.0792
+SO62007,1,2021-12-13,Pedro Mu�oz,pedro28@adventure-works.com,"Road-350-W Yellow, 40",1,1700.99,136.0792
 SO62021,1,2021-12-13,Christy Raje,christy31@adventure-works.com,"Road-750 Black, 44",1,539.99,43.1992
 SO62021,2,2021-12-13,Christy Raje,christy31@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO62021,3,2021-12-13,Christy Raje,christy31@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
@@ -26215,7 +26214,7 @@ SO62043,4,2021-12-14,Jacqueline Jenkins,jacqueline7@adventure-works.com,"Long-Sl
 SO62042,1,2021-12-14,Allison Murphy,allison14@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO62042,2,2021-12-14,Allison Murphy,allison14@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO62042,3,2021-12-14,Allison Murphy,allison14@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
-SO62039,1,2021-12-14,Adrienne Jiménez,adrienne5@adventure-works.com,HL Road Tire,1,32.60,2.608
+SO62039,1,2021-12-14,Adrienne Jim�nez,adrienne5@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO62038,1,2021-12-14,Jill Perry,jill32@adventure-works.com,LL Mountain Tire,1,24.99,1.9992
 SO62038,2,2021-12-14,Jill Perry,jill32@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO62038,3,2021-12-14,Jill Perry,jill32@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
@@ -26596,7 +26595,7 @@ SO62245,2,2021-12-17,Gina Martin,gina1@adventure-works.com,All-Purpose Bike Stan
 SO62247,1,2021-12-17,Eduardo Patterson,eduardo55@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO62247,2,2021-12-17,Eduardo Patterson,eduardo55@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO62239,1,2021-12-17,Julia Nelson,julia7@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
-SO62248,1,2021-12-17,José Hernandez,josé54@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO62248,1,2021-12-17,Jos� Hernandez,jos�54@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO62253,1,2021-12-17,Charles Jackson,charles15@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO62253,2,2021-12-17,Charles Jackson,charles15@adventure-works.com,HL Road Tire,1,32.60,2.608
 SO62253,3,2021-12-17,Charles Jackson,charles15@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
@@ -27140,7 +27139,7 @@ SO62463,3,2021-12-20,Evan Evans,evan24@adventure-works.com,Road Bottle Cage,1,8.
 SO62453,1,2021-12-20,Katie Nath,katie21@adventure-works.com,"Road-350-W Yellow, 48",1,1700.99,136.0792
 SO62404,1,2021-12-20,Vanessa Price,vanessa1@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO62404,2,2021-12-20,Vanessa Price,vanessa1@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
-SO62456,1,2021-12-20,Jaime Muñoz,jaime8@adventure-works.com,"Road-550-W Yellow, 38",1,1120.49,89.6392
+SO62456,1,2021-12-20,Jaime Mu�oz,jaime8@adventure-works.com,"Road-550-W Yellow, 38",1,1120.49,89.6392
 SO62431,1,2021-12-20,Andres Xie,andres2@adventure-works.com,"Classic Vest, M",1,63.50,5.08
 SO62431,2,2021-12-20,Andres Xie,andres2@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO62434,1,2021-12-20,Jeffery Sun,jeffery13@adventure-works.com,LL Road Tire,1,21.49,1.7192
@@ -27284,8 +27283,8 @@ SO62519,3,2021-12-21,Alberto Gill,alberto14@adventure-works.com,"Sport-100 Helme
 SO62519,1,2021-12-21,Alberto Gill,alberto14@adventure-works.com,"Road-550-W Yellow, 42",1,1120.49,89.6392
 SO62519,2,2021-12-21,Alberto Gill,alberto14@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
 SO62478,1,2021-12-21,Reginald Sanz,reginald6@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO62496,1,2021-12-21,Jésus Dominguez,jésus11@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
-SO62496,2,2021-12-21,Jésus Dominguez,jésus11@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
+SO62496,1,2021-12-21,J�sus Dominguez,j�sus11@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
+SO62496,2,2021-12-21,J�sus Dominguez,j�sus11@adventure-works.com,Bike Wash - Dissolver,1,7.95,0.636
 SO62498,1,2021-12-21,Wayne Yuan,wayne8@adventure-works.com,ML Road Tire,1,24.99,1.9992
 SO62510,1,2021-12-21,Aaron Scott,aaron45@adventure-works.com,"Road-250 Black, 44",1,2443.35,195.468
 SO62510,2,2021-12-21,Aaron Scott,aaron45@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
@@ -27308,9 +27307,9 @@ SO62514,3,2021-12-21,Erik Serrano,erik17@adventure-works.com,Water Bottle - 30 o
 SO62514,4,2021-12-21,Erik Serrano,erik17@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
 SO62529,1,2021-12-21,Darren Vazquez,darren37@adventure-works.com,"Road-550-W Yellow, 40",1,1120.49,89.6392
 SO62529,2,2021-12-21,Darren Vazquez,darren37@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
-SO62505,1,2021-12-21,Anders Skjønaa,anders0@adventure-works.com,Road Tire Tube,1,3.99,0.3192
-SO62505,2,2021-12-21,Anders Skjønaa,anders0@adventure-works.com,LL Road Tire,1,21.49,1.7192
-SO62505,3,2021-12-21,Anders Skjønaa,anders0@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
+SO62505,1,2021-12-21,Anders Skj�naa,anders0@adventure-works.com,Road Tire Tube,1,3.99,0.3192
+SO62505,2,2021-12-21,Anders Skj�naa,anders0@adventure-works.com,LL Road Tire,1,21.49,1.7192
+SO62505,3,2021-12-21,Anders Skj�naa,anders0@adventure-works.com,"Long-Sleeve Logo Jersey, XL",1,49.99,3.9992
 SO62506,1,2021-12-21,Regina Fernandez,regina15@adventure-works.com,Touring Tire,1,28.99,2.3192
 SO62506,2,2021-12-21,Regina Fernandez,regina15@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
 SO62506,3,2021-12-21,Regina Fernandez,regina15@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
@@ -28185,9 +28184,9 @@ SO62906,2,2021-12-28,Ernest Chen,ernest2@adventure-works.com,LL Mountain Tire,1,
 SO62906,1,2021-12-28,Ernest Chen,ernest2@adventure-works.com,Mountain Tire Tube,1,4.99,0.3992
 SO62910,1,2021-12-28,Michele Suri,michele55@adventure-works.com,Road Tire Tube,1,3.99,0.3192
 SO62910,2,2021-12-28,Michele Suri,michele55@adventure-works.com,"Sport-100 Helmet, Red",1,34.99,2.7992
-SO62914,1,2021-12-28,Jésus Dominguez,jésus11@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
-SO62914,2,2021-12-28,Jésus Dominguez,jésus11@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
-SO62914,3,2021-12-28,Jésus Dominguez,jésus11@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
+SO62914,1,2021-12-28,J�sus Dominguez,j�sus11@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
+SO62914,2,2021-12-28,J�sus Dominguez,j�sus11@adventure-works.com,Hydration Pack - 70 oz.,1,54.99,4.3992
+SO62914,3,2021-12-28,J�sus Dominguez,j�sus11@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO62942,1,2021-12-28,Fernando Baker,fernando32@adventure-works.com,"Road-350-W Yellow, 40",1,1700.99,136.0792
 SO62942,2,2021-12-28,Fernando Baker,fernando32@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO62880,1,2021-12-28,Harold Chandra,harold0@adventure-works.com,ML Mountain Tire,1,29.99,2.3992
@@ -28463,9 +28462,9 @@ SO62951,3,2021-12-29,Ronnie Xu,ronnie10@adventure-works.com,AWC Logo Cap,1,8.99,
 SO62951,4,2021-12-29,Ronnie Xu,ronnie10@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
 SO62951,1,2021-12-29,Ronnie Xu,ronnie10@adventure-works.com,"Mountain-500 Black, 44",1,539.99,43.1992
 SO62951,2,2021-12-29,Ronnie Xu,ronnie10@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO62952,2,2021-12-29,Derrick Jiménez,derrick5@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
-SO62952,3,2021-12-29,Derrick Jiménez,derrick5@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
-SO62952,1,2021-12-29,Derrick Jiménez,derrick5@adventure-works.com,"Mountain-500 Black, 52",1,539.99,43.1992
+SO62952,2,2021-12-29,Derrick Jim�nez,derrick5@adventure-works.com,Fender Set - Mountain,1,21.98,1.7584
+SO62952,3,2021-12-29,Derrick Jim�nez,derrick5@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
+SO62952,1,2021-12-29,Derrick Jim�nez,derrick5@adventure-works.com,"Mountain-500 Black, 52",1,539.99,43.1992
 SO62947,2,2021-12-29,Carolyn Torres,carolyn32@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO62947,3,2021-12-29,Carolyn Torres,carolyn32@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO62947,1,2021-12-29,Carolyn Torres,carolyn32@adventure-works.com,Mountain Bottle Cage,1,9.99,0.7992
@@ -28501,9 +28500,9 @@ SO63025,1,2021-12-30,Nicole Wood,nicole50@adventure-works.com,Mountain Tire Tube
 SO63025,2,2021-12-30,Nicole Wood,nicole50@adventure-works.com,Patch Kit/8 Patches,1,2.29,0.1832
 SO63056,2,2021-12-30,Alexandra Murphy,alexandra9@adventure-works.com,"Long-Sleeve Logo Jersey, M",1,49.99,3.9992
 SO63056,1,2021-12-30,Alexandra Murphy,alexandra9@adventure-works.com,"Road-350-W Yellow, 42",1,1700.99,136.0792
-SO63047,3,2021-12-30,Cheryl Jiménez,cheryl7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
-SO63047,1,2021-12-30,Cheryl Jiménez,cheryl7@adventure-works.com,"Touring-1000 Yellow, 46",1,2384.07,190.7256
-SO63047,2,2021-12-30,Cheryl Jiménez,cheryl7@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
+SO63047,3,2021-12-30,Cheryl Jim�nez,cheryl7@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
+SO63047,1,2021-12-30,Cheryl Jim�nez,cheryl7@adventure-works.com,"Touring-1000 Yellow, 46",1,2384.07,190.7256
+SO63047,2,2021-12-30,Cheryl Jim�nez,cheryl7@adventure-works.com,Road Bottle Cage,1,8.99,0.7192
 SO63012,1,2021-12-30,Misty Chander,misty17@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO63037,1,2021-12-30,Noah Rodriguez,noah67@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO63037,2,2021-12-30,Noah Rodriguez,noah67@adventure-works.com,Touring Tire Tube,1,4.99,0.3992
@@ -28676,8 +28675,8 @@ SO63083,1,2021-12-31,Nicholas Brown,nicholas6@adventure-works.com,"Women's Mount
 SO63083,2,2021-12-31,Nicholas Brown,nicholas6@adventure-works.com,"Half-Finger Gloves, S",1,24.49,1.9592
 SO63072,1,2021-12-31,Ashley Henderson,ashley31@adventure-works.com,"Short-Sleeve Classic Jersey, S",1,53.99,4.3192
 SO63072,2,2021-12-31,Ashley Henderson,ashley31@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO63115,1,2021-12-31,Andrés Anand,andrés18@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
-SO63115,2,2021-12-31,Andrés Anand,andrés18@adventure-works.com,"Touring-1000 Yellow, 60",1,2384.07,190.7256
+SO63115,1,2021-12-31,Andr�s Anand,andr�s18@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
+SO63115,2,2021-12-31,Andr�s Anand,andr�s18@adventure-works.com,"Touring-1000 Yellow, 60",1,2384.07,190.7256
 SO63069,3,2021-12-31,Adriana Madan,adriana8@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
 SO63069,4,2021-12-31,Adriana Madan,adriana8@adventure-works.com,"Short-Sleeve Classic Jersey, S",1,53.99,4.3192
 SO63069,1,2021-12-31,Adriana Madan,adriana8@adventure-works.com,"Mountain-200 Black, 42",1,2294.99,183.5992
@@ -28770,7 +28769,7 @@ SO63100,2,2021-12-31,Morgan Wilson,morgan30@adventure-works.com,Touring Tire,1,2
 SO63099,1,2021-12-31,Jeffery Zhu,jeffery14@adventure-works.com,"Touring-3000 Blue, 50",1,742.35,59.388
 SO63099,2,2021-12-31,Jeffery Zhu,jeffery14@adventure-works.com,AWC Logo Cap,1,8.99,0.7192
 SO63099,3,2021-12-31,Jeffery Zhu,jeffery14@adventure-works.com,"Sport-100 Helmet, Black",1,34.99,2.7992
-SO63092,1,2021-12-31,Dana Muñoz,dana23@adventure-works.com,LL Road Tire,1,21.49,1.7192
+SO63092,1,2021-12-31,Dana Mu�oz,dana23@adventure-works.com,LL Road Tire,1,21.49,1.7192
 SO63101,1,2021-12-31,Susan Lin,susan17@adventure-works.com,"Touring-3000 Blue, 58",1,742.35,59.388
 SO63101,2,2021-12-31,Susan Lin,susan17@adventure-works.com,"Sport-100 Helmet, Blue",1,34.99,2.7992
 SO63084,1,2021-12-31,Gabrielle Scott,gabrielle56@adventure-works.com,Water Bottle - 30 oz.,1,4.99,0.3992
