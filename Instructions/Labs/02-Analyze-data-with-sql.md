@@ -62,7 +62,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 5. Expand your storage account and verify that it contains a file system container named **files**.
 6. Select the **files** container, and note that it contains folders named **sales** and **synapse**. The **synapse** folder is used by Azure Synapse, and the **sales** folder contains the data files you are going to query.
 7. Open the **sales** folder and the **orders** folder it contains, and observe that the **orders** folder contains .csv files for three years of sales data.
-8. Right-click any of the files and select **Preview** to see the data it contains.
+8. Right-click any of the files and select **Preview** to see the data it contains. Note that the files do not contain a header row, so you can unselect the option to display column headers.
 9. Close the preview, and then use the **&uparrow;** button to navigate back to the **sales** folder so you can see the **orders** folder.
 
 ### Use SQL to query the file data
