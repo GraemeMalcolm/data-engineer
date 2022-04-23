@@ -111,8 +111,8 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
     StructField("Email", StringType()),
     StructField("Item", StringType()),
     StructField("Quantity", IntegerType()),
-    StructField("UnitPrice", DecimalType()),
-    StructField("Tax", DecimalType())
+    StructField("UnitPrice", FloatType()),
+    StructField("Tax", FloatType())
     ])
 
     df = spark.read.load('abfss://files@datalakexxxxxxx.dfs.core.windows.net/sales/orders/*.csv', format='csv', schema=orderSchema)
@@ -191,8 +191,8 @@ The default language in Azure Synapse Studio notebooks is PySpark, which is a Sp
     ```Python
     df.createOrReplaceTempView("salesorders")
 
-    resultDF = spark.sql("SELECT * FROM salesorders")
-    display(resultDF)
+    spark_df = spark.sql("SELECT * FROM salesorders")
+    display(spark_df)
     ```
 
 2. Run the cell and review the results. Observe that:
@@ -220,6 +220,8 @@ While it's useful to be able to embed SQL statements into a cell containing PySp
     - The SQL code references the **salesorder** view that you created previously using PySpark.
     - The output from the SQL query is automatically displayed as the result under the cell.
 
+> **Note**: For more information about Spark SQL and DataFrames, see the [Spark SQL documentation](https://spark.apache.org/docs/2.2.0/sql-programming-guide.html).
+
 ## Visualize data with Spark
 
 A picture is proverbially worth a thousand words, and a chart is often better than a thousand rows of data. Whilenotebooks in Azure Synapse Analytics include a built in chart view for data that is displayed from a DataFrame or Spark SQL query, it is not designed for comprehensive charting. However, you can use Python graphics libraries like **matplotlib** and **seaborn** to create charts from data in DataFrames.
@@ -229,10 +231,10 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 1. Add a new code cell to the notebook, and enter the following code in it:
 
     ```Python
-    sqlQuery = "SELECT YEAR(OrderDate) AS OrderYear, \
-                       SUM((UnitPrice * Quantity) + Tax) AS GrossRevenue \
+    sqlQuery = "SELECT CAST(YEAR(OrderDate) AS CHAR(4)) AS OrderYear, \
+                    SUM((UnitPrice * Quantity) + Tax) AS GrossRevenue \
                 FROM salesorders \
-                GROUP BY YEAR(OrderDate) \
+                GROUP BY CAST(YEAR(OrderDate) AS CHAR(4)) \
                 ORDER BY OrderYear"
     df_spark = spark.sql(sqlQuery)
     df_spark.show()
@@ -250,10 +252,6 @@ A picture is proverbially worth a thousand words, and a chart is often better th
     # matplotlib requires a Pandas DataFrame, not a Spark one
     df_sales = df_spark.toPandas()
 
-    # Set data types
-    df_sales["OrderYear"] = df_sales["OrderYear"].astype(str)
-    df_sales["GrossRevenue"] = df_sales["GrossRevenue"].astype(float)
-
     # Create a bar plot of revenue by year
     plt.bar(x=df_sales['OrderYear'].astype(str), height=df_sales['GrossRevenue'])
 
@@ -262,7 +260,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
     ```
 
 4. Run the cell and review the results, which consist of a column chart with the total gross revenue for each year. Note the following features of the code used to produce this chart:
-    - The **matplotlib** library requires a *Pandas* DataFrame, so you need to convert the *Spark* DataFrame returned by the Spark SQL query to this format. In this example, we've also changed some of the data types.
+    - The **matplotlib** library requires a *Pandas* DataFrame, so you need to convert the *Spark* DataFrame returned by the Spark SQL query to this format.
     - At the core of the **matplotlib** library is the **pyplot** object. This is the foundation for most plotting functionality.
     - The default settings result in a usable chart, but there's considerable scope to customize it
 
@@ -359,25 +357,40 @@ While **matplotlib** enables you to create complex charts of multiple types, it 
     # Clear the plot area
     plt.clf()
 
+    # Create a bar chart
     ax = sns.barplot(x="OrderYear", y="GrossRevenue", data=df_sales)
     plt.show()
     ```
 
 2. Run the code and observe that it displays a bar chart using the seaborn library.
-3. Modify the code as follows:
+3. Add a new code cell to the notebook, and enter the following code in it:
 
     ```Python
-    import seaborn as sns
-
     # Clear the plot area
     plt.clf()
 
+    # Set the visual theme for seaborn
     sns.set_theme(style="whitegrid")
+
+    # Create a bar chart
     ax = sns.barplot(x="OrderYear", y="GrossRevenue", data=df_sales)
     plt.show()
     ```
 
 4. Run the code and note that seaborn enables you to set a consistent color theme for your plots.
+
+5. Add a new code cell to the notebook, and enter the following code in it:
+
+    ```Python
+    # Clear the plot area
+    plt.clf()
+
+    # Create a bar chart
+    ax = sns.lineplot(x="OrderYear", y="GrossRevenue", data=df_sales)
+    plt.show()
+    ```
+
+6. Run the code to view the yearly revenue as a line chart.
 
 > **Note**: To learn more about plotting with seaborn, see the [seaborn documentation](https://seaborn.pydata.org/index.html).
 
