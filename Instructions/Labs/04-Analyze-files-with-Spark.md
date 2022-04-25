@@ -253,7 +253,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
     df_sales = df_spark.toPandas()
 
     # Create a bar plot of revenue by year
-    plt.bar(x=df_sales['OrderYear'].astype(str), height=df_sales['GrossRevenue'])
+    plt.bar(x=df_sales['OrderYear'], height=df_sales['GrossRevenue'])
 
     # Display the plot
     plt.show()
