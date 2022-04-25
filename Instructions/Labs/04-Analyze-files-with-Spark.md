@@ -347,7 +347,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 
 ### Use the **seaborn** library
 
-While **matplotlib** enables you to create complex charts of multiple types, it can require come complex code to achieve the best results. For this reason, over the years, many new libraries have been built on the base of matplotlib to abstract its complexity and enhance its capabilities. One such library is **seaborn**.
+While **matplotlib** enables you to create complex charts of multiple types, it can require some complex code to achieve the best results. For this reason, over the years, many new libraries have been built on the base of matplotlib to abstract its complexity and enhance its capabilities. One such library is **seaborn**.
 
 1. Add a new code cell to the notebook, and enter the following code in it:
 
