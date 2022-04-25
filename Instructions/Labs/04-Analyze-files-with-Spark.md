@@ -184,7 +184,7 @@ As you've seen, the native methods of the DataFrame object enable you to query a
 
 ### Use Spark SQL in PySpark code
 
-The default language in Azure Synapse Studio notebooks is PySpark, which is a Spark-based Python runtime.
+The default language in Azure Synapse Studio notebooks is PySpark, which is a Spark-based Python runtime. Within this runtime, you can use the **spark.sql** library to embed Spark SQL syntax within your Python code, and work with SQL constructs such as tables and views.
 
 1. Add a new code cell to the notebook, and enter the following code in it:
 
