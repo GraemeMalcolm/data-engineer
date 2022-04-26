@@ -12,7 +12,7 @@ This lab will take approximately **60** minutes to complete.
 
 ## Before you start
 
-You'll need an [Azure subscription](https://azure.microsoft.com/free)!
+You'll need an [Azure subscription](https://azure.microsoft.com/free) in which you have administrative-level access.
 
 ## Provision an Azure Synapse Analytics workspace
 
