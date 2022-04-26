@@ -96,3 +96,4 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 ### Load the file data into a delta table
 
+*...more to come...!*
