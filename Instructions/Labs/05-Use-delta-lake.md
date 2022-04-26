@@ -8,7 +8,7 @@ lab:
 
 Delta Lake is an open source project to build a transactional data storage layer on top of a data lake. Delta Lake adds support for relational semantics for both batch and streaming data operations, and enables the creation of a *Lakehouse* architecture in which Apache Spark can be used to process and query data in tables that are based on underlying files in the data lake.
 
-This lab will take approximately **45** minutes to complete.
+This lab will take approximately **30** minutes to complete.
 
 ## Before you start
 
@@ -79,7 +79,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
     ```Python
     %%pyspark
-    df = spark.read.load('abfss://files@datalakexxxxxxx.dfs.core.windows.net/product_data/products.csv', format='csv'
+    df = spark.read.load('abfss://files@datalakexxxxxxx.dfs.core.windows.net/products/products.csv', format='csv'
     ## If header exists uncomment line below
     , header=True
     )
@@ -96,4 +96,61 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 ### Load the file data into a delta table
 
-*...more to come...!*
+1. Under the results returned by the first code cell, use the **+ Code** button to add a new code cell. Then enter the following code in the new cell and run it:
+
+    ```Python
+    delta_table_path = "/delta/products-delta"
+    df.write.format("delta").save(delta_table_path)
+    ```
+
+2. On the **files** tab, use the **&#8593;** icon in the toolbar to return to the root of the **files** container, and note that a new folder named **delta** has been created. Open this folder and the **products-delta** table it contains, where you should see the parquet format file(s) containing the data.
+
+3. Return to the **Notebook 1** tab and add another new code cell. Then, in the new cell, add the following code and run it:
+
+    ```Python
+    from delta.tables import *
+    from pyspark.sql.functions import *
+
+    # Create a deltaTable object
+    deltaTable = DeltaTable.forPath(spark, delta_table_path)
+
+    # Update the table (reduce price of product 771 by 10%)
+    deltaTable.update(
+        condition = expr("ProductID == 771"),
+        set = { "ListPrice": expr("ListPrice * 0.9") })
+
+    # View the updated data as a dataframe
+    deltaTable.toDF().show(10)
+    ```
+
+    The data is loaded into a **deltaTable** object and updated. You can see the update reflected in the query results.
+
+4. Add another new code cell with the following code and run it:
+
+    ```Python
+    new_df = spark.read.format("delta").load(delta_table_path)
+    new_df.show(10)
+    ```
+
+    The code loads the delta table data into a data frame from its location in the data lake, verifying that the change you made via a **deltaTable** object ihas been persisted.
+
+5. Modify the code you just ran as follows, specifying the option to use the *time travel* feature of delta lake to view a previous version of the data.
+
+    ```Python
+    new_df = spark.read.format("delta").option("versionAsOf", 0).load(delta_table_path)
+    new_df.show(10)
+    ```
+
+    When you run the modified code, the results show the original version of the data.
+
+6. Add another new code cell with the following code and run it:
+
+    ```Python
+    deltaTable.history(10).show(20, False, True)
+    ```
+
+    The history of the last 20 changes to the table is shown - there should be two (the original creation, and the update you made.)
+
+## Create Catalog Tables
+
+*more to come...*
