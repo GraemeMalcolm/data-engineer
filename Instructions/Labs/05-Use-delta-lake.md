@@ -226,7 +226,7 @@ So far you've worked with delta tables by loading data from the folder containin
     This code drops the tables from the metastore.
 
 3. Return to the **files** tab and view the **files/delta/products-delta** folder. Note that the data files still exist in this location. Dropping the external table has removed the table from the metastore, but left the data files intact.
-4. View the **files/synapse/workspaces/synapsexxxxxxx/warehouse** folder, and note that there is no folder for the **productsManaged** table data. Dropping a managed table removes the table from the metastore and also deletes the table's data files.
+4. View the **files/synapse/workspaces/synapsexxxxxxx/warehouse** folder, and note that there is no folder for the **ProductsManaged** table data. Dropping a managed table removes the table from the metastore and also deletes the table's data files.
 
 ## Delete Azure resources
 
