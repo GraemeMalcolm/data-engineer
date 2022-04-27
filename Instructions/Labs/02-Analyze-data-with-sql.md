@@ -241,4 +241,4 @@ If you've finished exploring Azure Synapse Analytics, you should delete the reso
 4. At the top of the **Overview** page for your resource group, select **Delete resource group**.
 5. Enter the **dp000-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
 
-    After a few minutes, your Azure Synapse workspace and the managed workspace associated with it will be deleted.
+    After a few minutes, your Azure Synapse workspace resource group and the managed workspace resource group associated with it will be deleted.

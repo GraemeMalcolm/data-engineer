@@ -47,7 +47,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
     > **Note**: Be sure to remember this password!
 
-7. Wait for the script to complete - this typically takes around 10 minutes, but in some cases may take longer. While you are waiting, review the [Apache Spark in Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-overview) article in the Azure Synapse Analytics documentation.
+7. Wait for the script to complete - this typically takes around 10 minutes, but in some cases may take longer. While you are waiting, review the [What is Delta Lake](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake) article in the Azure Synapse Analytics documentation.
 
 ## Create delta tables
 
@@ -151,6 +151,91 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
     The history of the last 20 changes to the table is shown - there should be two (the original creation, and the update you made.)
 
-## Create Catalog Tables
+## Create catalog tables
 
-*more to come...*
+So far you've worked with delta tables by loading data from the folder containing the parquet files on which the table is based. You can define *catalog tables* that encapsulate the data and provide a named table entity that you can reference in SQL code. Spark supports two kinds of catalog tables for delta lake:
+
+- *External* tables that are defined by the path to the parquet files containing the table data.
+- *Managed* tables, that are defined in the Hive metastore for the Spark pool.
+
+### Create an external table
+
+1. In a new code cell, add and run the following code:
+
+    ```Python
+    spark.sql("CREATE TABLE ProductsExternal USING DELTA LOCATION '{0}'".format(delta_table_path))
+    spark.sql("DESCRIBE EXTENDED ProductsExternal").show(truncate=False)
+    ```
+
+    This code creates an external tabled named **ProductsExternal** based on the path to the parquet files you defined previously. It then displays a description of the table's properties. Note tat the **Location** property is the path you specified.
+
+2. Add a new code cell, and then enter and run the following code:
+
+    ```sql
+    %%sql
+
+    SELECT * FROM ProductsExternal
+
+    ```
+
+    The code uses SQL to query the **ProductsExternal** table.
+
+### Create a managed table
+
+1. In a new code cell, add and run the following code:
+
+    ```Python
+    df.write.format("delta").saveAsTable("ProductsManaged")
+    spark.sql("DESCRIBE EXTENDED ProductsManaged").show(truncate=False)
+    ```
+
+    This code creates a managed tabled named **ProductsManaged** based on the DataFrame you originally loaded from the **products.csv** file (before you updated the price of product 771). You do not specify a path for the parquet files used by the table - this is managed for you in the Hive metastore, and shown in the **Location** property in the table description (in the **files/synapse/workspaces/synapsexxxxxxx/warehouse** path).
+
+2. Add a new code cell, and then enter and run the following code:
+
+    ```sql
+    %%sql
+
+    SELECT * FROM ProductsManaged
+
+    ```
+
+    The code uses SQL to query the **ProductsManaged** table.
+
+### Compare external and managed tables
+
+1. In a new code cell, add and run the following code:
+
+    ```sql
+    %%sql
+
+    SHOW TABLES
+    ```
+
+    This code lists the tables in the metastore for your Spark pool. Note that both tables are defined in the **default** database.
+
+2. In a new code cell, add and run the following code:
+
+    ```sql
+    %%sql
+
+    DROP TABLE IF EXISTS ProductsExternal;
+    DROP TABLE IF EXISTS ProductsManaged;
+    ```
+
+    This code drops the tables from the metastore.
+
+3. Return to the **files** tab and view the **files/delta/products-delta** folder. Note that the data files still exist in this location. Dropping the external table has removed the table from the metastore, but left the data files intact.
+4. View the **files/synapse/workspaces/synapsexxxxxxx/warehouse** folder, and note that there is no folder for the **productsManaged** table data. Dropping a managed table removes the table from the metastore and also deletes the table's data files.
+
+## Delete Azure resources
+
+If you've finished exploring Azure Synapse Analytics, you should delete the resources you've created to avoid unnecessary Azure costs.
+
+1. Close the Synapse Studio browser tab and return to the Azure portal.
+2. On the Azure portal, on the **Home** page, select **Resource groups**.
+3. Select the **dp000-*xxxxxxx*** resource group for your Synapse Analytics workspace (not the managed resource group), and verify that it contains the Synapse workspace, storage account, and Spark pool for your workspace.
+4. At the top of the **Overview** page for your resource group, select **Delete resource group**.
+5. Enter the **dp000-*xxxxxxx*** resource group name to confirm you want to delete it, and select **Delete**.
+
+    After a few minutes, your Azure Synapse workspace resource group and the managed workspace resource group associated with it will be deleted.
