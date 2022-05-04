@@ -225,7 +225,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
             FIELDTERMINATOR ='0x0b',
             FIELDQUOTE = '0x0b',
             ROWTERMINATOR = '0x0b'
-        ) WITH (doc NVARCHAR(MAX)) as rows
+        ) WITH (Doc NVARCHAR(MAX)) as rows
     ```
 
 5. Run the modified code and observe that the results include a JSON document for each order.
@@ -233,9 +233,9 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
 6. Modify the query as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account) so that it uses the JSON_VALUE function to extract individual field values from the JSON data.
 
     ```sql
-    SELECT JSON_VALUE(doc, '$.SalesOrderNumber') AS order_date,
-           JSON_VALUE(doc, '$.CustomerName') AS customer,
-           doc
+    SELECT JSON_VALUE(Doc, '$.SalesOrderNumber') AS OrderNumber,
+           JSON_VALUE(Doc, '$.CustomerName') AS Customer,
+           Doc
     FROM
         OPENROWSET(
             BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
@@ -243,7 +243,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
             FIELDTERMINATOR ='0x0b',
             FIELDQUOTE = '0x0b',
             ROWTERMINATOR = '0x0b'
-        ) WITH (doc NVARCHAR(MAX)) as rows
+        ) WITH (Doc NVARCHAR(MAX)) as rows
     ```
 
 7. Name your script **Sales JSON query**, and publish it. Then close the script pane.
@@ -343,7 +343,7 @@ The external data source makes it easier to access the files in the data lake, b
     GO
     ```
 
-2. Expand the **External tables** folder in the **Data** pane and confirm that a table named **dbo.orders** has been created in the **Sales** database.
+2. Refresh and expand the **External tables** folder in the **Data** pane and confirm that a table named **dbo.orders** has been created in the **Sales** database.
 3. In the **...** menu for the **dbo.orders** table, select **New SQL script** > **Select TOP 100 rows**.
 4. Run the SELECT script that has been generated, and verify that it retrieves the first 100 rows of data from the table, which in turn references the files in the data lake.
 
