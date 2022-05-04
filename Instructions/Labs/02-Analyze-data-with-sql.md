@@ -151,7 +151,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     ```
 
 4. Run the code, and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
-5. Modify the code as follows and then run it.
+5. Modify the code as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account) and then run it.
 
     ```sql
     SELECT YEAR(OrderDate) AS OrderYear,
@@ -191,7 +191,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
 
     The script is designed to query comma-delimited (CSV) data rather then JSON, so you need to make a few modifications before it will work successfully.
 
-4. Modify the script to:
+4. Modify the script as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account) to:
     - Remove the parser version parameter.
     - Add parameters for field terminator, quoted fields, and row terminators with the character code *0x0b*.
     - Format the results as a single field containing the JSON row of data as an NVARCHAR(MAX) string.
@@ -211,7 +211,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
 
 5. Run the modified code and observe that the results include a JSON document for each order.
 
-6. Modify the query as follows so that it uses the JSON_VALUE function to extract individual field values from the JSON data.
+6. Modify the query as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account) so that it uses the JSON_VALUE function to extract individual field values from the JSON data.
 
     ```sql
     SELECT JSON_VALUE(doc, '$.SalesOrderNumber') AS order_date,
@@ -267,7 +267,7 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
         ) AS [orders]
     ```
 
-    The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the data files. However, there is still the problem that the column names are undefined. To resolve this with a more permanent solution than adding a WITH clause to the OPENROWSET function, you'll create an external table.
+    The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files. However, there is still the problem that the column names are undefined. To resolve this with a more permanent solution than adding a WITH clause to the OPENROWSET function, you'll create an external table.
 
 8. Replace the SQL code with the following statement to define an external data format for CSV files, and an external table that references the CSV files, and run it:
 
