@@ -116,7 +116,24 @@ Get-ChildItem "./data/*.csv" -File | Foreach-Object {
     write-host ""
     $file = $_.Name
     Write-Host $file
-    $blobPath = "sales/orders/$file"
+    $blobPath = "sales/csv/$file"
+    Set-AzStorageBlobContent -File $_.FullName -Container "files" -Blob $blobPath -Context $storageContext
+}
+
+Get-ChildItem "./data/*.parquet" -File | Foreach-Object {
+    write-host ""
+    Write-Host $_.Name
+    $folder = $_.Name.Replace(".snappy.parquet", "")
+    $file = $_.Name.Replace($folder, "orders")
+    $blobPath = "sales/parquet/$folder/$file"
+    Set-AzStorageBlobContent -File $_.FullName -Container "files" -Blob $blobPath -Context $storageContext
+}
+
+Get-ChildItem "./data/*.json" -File | Foreach-Object {
+    write-host ""
+    $file = $_.Name
+    Write-Host $file
+    $blobPath = "sales/json/$file"
     Set-AzStorageBlobContent -File $_.FullName -Container "files" -Blob $blobPath -Context $storageContext
 }
 
