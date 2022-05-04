@@ -60,7 +60,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 3. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
 4. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, which should have a name similar to **synapse*xxxxxxx* (Primary - datalake*xxxxxxx*)**.
 5. Expand your storage account and verify that it contains a file system container named **files**.
-6. Select the **files** container, and note that it contains folders named **sales** and **synapse**. The **synapse** folder is used by Azure Synapse, and the **sales** folder contains the data files you are going to query.
+6. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
 7. Open the **sales** folder and the **orders** folder it contains, and observe that the **orders** folder contains .csv files for three years of sales data.
 8. Right-click any of the files and select **Preview** to see the data it contains. Note that the files do not contain a header row, so you can unselect the option to display column headers.
 9. Close the preview, and then use the **&uparrow;** button to navigate back to the **sales** folder so you can see the **orders** folder.
@@ -106,7 +106,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
             PARSER_VERSION='2.0'
         )
         WITH (
-            SalesOrderDate VARCHAR(10) COLLATE Latin1_General_100_BIN2_UTF8,
+            SalesOrderNumber VARCHAR(10) COLLATE Latin1_General_100_BIN2_UTF8,
             SalesOrderLineNumber INT,
             OrderDate DATE,
             CustomerName VARCHAR(25) COLLATE Latin1_General_100_BIN2_UTF8,
@@ -182,7 +182,7 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
 
     CREATE EXTERNAL TABLE dbo.orders
     (
-        SalesOrderDate VARCHAR(10),
+        SalesOrderNumber VARCHAR(10),
         SalesOrderLineNumber INT,
         OrderDate DATE,
         CustomerName VARCHAR(25),
