@@ -167,13 +167,32 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
 6. Note that the results include order counts for all three years - the wildcard used in the BULK path causes the query to return data from all subfolders.
 
+    The subfolders reflect *partitions* in the parquet data, which is a technique often used to optimize performance for systems that can process multiple partitions of data in parallel. You can also use partitions to filter the data.
+
+7. Modify the code as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account) and then run it.
+
+    ```sql
+    SELECT YEAR(OrderDate) AS OrderYear,
+           COUNT(*) AS OrdredItems
+    FROM
+        OPENROWSET(
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/year=*/**',
+            FORMAT = 'PARQUET'
+        ) AS [result]
+    WHERE [result].filepath(1) IN ('2019', '2020')
+    GROUP BY YEAR(OrderDate)
+    ORDER BY OrderYear
+    ```
+
+8. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by inclusing a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
+
 7. Name your script **Sales Parquet query**, and publish it. Then close the script pane.
 
 ### Use SQL to query JSON files
 
 JSON is another popular data format, so it;s useful to be able to query .json files in a serverless SQL pool.
 
-1. In the **files** tab contaning the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
+1. In the **files** tab containing the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 2. Select the **json** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
 3. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder. The script should look similar to this:
 
@@ -229,9 +248,13 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
 
 7. Name your script **Sales JSON query**, and publish it. Then close the script pane.
 
-## Create an external table
+## Access external data in a database
 
-So far, you've used the OPENROWSET function in a SELECT query to retrieve data from files in a data lake. The queries have been run in the context of the **master** database in your serverless SQL pool. This approach is fine for an initial exploration of the data, but if you plan to create more complex queries it may be more effective to use the *PolyBase* capability of Synapse SQL to create a logical table in a database that references the external data location.
+So far, you've used the OPENROWSET function in a SELECT query to retrieve data from files in a data lake. The queries have been run in the context of the **master** database in your serverless SQL pool. This approach is fine for an initial exploration of the data, but if you plan to create more complex queries it may be more effective to use the *PolyBase* capability of Synapse SQL to create objects in a database that reference the external data location.
+
+### Create an external data source
+
+By defining an external data source in a database, you can use it to reference the data lake location where the files are stored.
 
 1. In Synapse Studio, on the **Develop** page, in the **+** menu, select **SQL script**.
 2. In the new script pane, add the following code (replacing *datalakexxxxxxx* with the name of your data lake storage account) to create a new database and add an external data source to it.
@@ -264,12 +287,29 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
             DATA_SOURCE = 'sales_data',
             FORMAT = 'CSV',
             PARSER_VERSION = '2.0'
-        ) AS [orders]
+        ) AS orders
     ```
 
-    The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files. However, there is still the problem that the column names are undefined. To resolve this with a more permanent solution than adding a WITH clause to the OPENROWSET function, you'll create an external table.
+    The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files.
 
-8. Replace the SQL code with the following statement to define an external data format for CSV files, and an external table that references the CSV files, and run it:
+8. Modify the code as follows to query the parquet files using the data source.
+
+    ```sql
+    SELECT *
+    FROM  
+        OPENROWSET(
+            BULK 'parquet/year=*/*.snappy.parquet',
+            DATA_SOURCE = 'sales_data',
+            FORMAT='PARQUET'
+        ) AS orders
+    WHERE orders.filepath(1) = '2019'
+    ```
+
+### Create an external table
+
+The external data source makes it easier to access the files in the data lake, but most data analysts using SQ are used to working with tables in a database. Fortunately, you can also define external file formats and external tables that encapsulate rowsets from files in database tables.
+
+1. Replace the SQL code with the following statement to define an external data format for CSV files, and an external table that references the CSV files, and run it:
 
     ```sql
     CREATE EXTERNAL FILE FORMAT CsvFormat
@@ -303,9 +343,9 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
     GO
     ```
 
-9. Expand the **External tables** folder in the **Data** pane and confirm that a table named **dbo.orders** has been created in the **Sales** database.
-10. In the **...** menu for the **dbo.orders** table, select **New SQL script** > **Select TOP 100 rows**.
-11. Run the SELECT script that has been generated, and verify that it retrieves the first 100 rows of data from the table, which in turn references the files in the data lake.
+2. Expand the **External tables** folder in the **Data** pane and confirm that a table named **dbo.orders** has been created in the **Sales** database.
+3. In the **...** menu for the **dbo.orders** table, select **New SQL script** > **Select TOP 100 rows**.
+4. Run the SELECT script that has been generated, and verify that it retrieves the first 100 rows of data from the table, which in turn references the files in the data lake.
 
 ## Visualize query results
 
