@@ -61,15 +61,19 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 4. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, which should have a name similar to **synapse*xxxxxxx* (Primary - datalake*xxxxxxx*)**.
 5. Expand your storage account and verify that it contains a file system container named **files**.
 6. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
-7. Open the **sales** folder and the **orders** folder it contains, and observe that the **orders** folder contains .csv files for three years of sales data.
+7. Open the **sales** folder and the **csv** folder it contains, and observe that this folder contains .csv files for three years of sales data.
 8. Right-click any of the files and select **Preview** to see the data it contains. Note that the files do not contain a header row, so you can unselect the option to display column headers.
-9. Close the preview, and then use the **&uparrow;** button to navigate back to the **sales** folder so you can see the **orders** folder.
+9. Close the preview, and then use the **&uparrow;** button to navigate back to the **sales** folder.
+10. In the **sales** folder, open the **json** folder and observe that it contains some sample sales orders in .json files. Preview any of these files to see the JSON format used for a sales order.
+11. Close the preview, and then use the **&uparrow;** button to navigate back to the **sales** folder.
+12. In the **sales** folder, open the **parquet** folder and observe that it contains a subfolder for each year (2019-2021), in each of which a file named **orders.snappy.parquet** contains the order data for that year. Preview any of these files to see the JSON format used for a sales order.
+13. Return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
-### Use SQL to query the file data
+### Use SQL to query CSV files
 
-1. Select the **orders** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
+1. Select the **csv** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
 2. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
-3. In the **Properties** pane for **SQL Script 1** that is created, change the name to **Sales query**, and change the result settings to show **All rows**. Then in the toolbar, select **Publish** to save the script and use the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar to hide the **Properties** pane.
+3. In the **Properties** pane for **SQL Script 1** that is created, change the name to **Sales CSV query**, and change the result settings to show **All rows**. Then in the toolbar, select **Publish** to save the script and use the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar to hide the **Properties** pane.
 4. Review the SQL code that has been generated, which should be similar to this:
 
     ```SQL
@@ -78,7 +82,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/orders**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv**',
             FORMAT = 'CSV',
             PARSER_VERSION='2.0'
         ) AS [result]
@@ -101,7 +105,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
         TOP 100 *
     FROM
         OPENROWSET(
-            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/orders/**',
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/csv/**',
             FORMAT = 'CSV',
             PARSER_VERSION='2.0'
         )
@@ -126,6 +130,104 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
     | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 8. Publish the changes to your script, and then close the script pane.
+
+### Use SQL to query parquet files
+
+While CSV is an easy format to use, it's common in big data processing scenarios to use file formats that are optimized for compression, indexing, and partitioning. One of the most common of these formats is *parquet*.
+
+1. In the **files** tab contaning the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
+2. Select the **parquet** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
+3. In the **File type** list, select **Parquet format**, and then apply the settings to open a new SQL script that queries the data in the folder. The script should look similar to this:
+
+    ```SQL
+    -- This is auto-generated code
+    SELECT
+        TOP 100 *
+    FROM
+        OPENROWSET(
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
+            FORMAT = 'PARQUET'
+        ) AS [result]
+    ```
+
+4. Run the code, and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
+5. Modify the code as follows and then run it.
+
+    ```sql
+    SELECT YEAR(OrderDate) AS OrderYear,
+           COUNT(*) AS OrdredItems
+    FROM
+        OPENROWSET(
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/parquet/**',
+            FORMAT = 'PARQUET'
+        ) AS [result]
+    GROUP BY YEAR(OrderDate)
+    ORDER BY OrderYear
+    ```
+
+6. Note that the results include order counts for all three years - the wildcard used in the BULK path causes the query to return data from all subfolders.
+
+7. Name your script **Sales Parquet query**, and publish it. Then close the script pane.
+
+### Use SQL to query JSON files
+
+JSON is another popular data format, so it;s useful to be able to query .json files in a serverless SQL pool.
+
+1. In the **files** tab contaning the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
+2. Select the **json** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
+3. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder. The script should look similar to this:
+
+    ```sql
+    -- This is auto-generated code
+    SELECT
+        TOP 100 *
+    FROM
+        OPENROWSET(
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
+            FORMAT = 'CSV',
+            PARSER_VERSION = '2.0'
+        ) AS [result]
+    ```
+
+    The script is designed to query comma-delimited (CSV) data rather then JSON, so you need to make a few modifications before it will work successfully.
+
+4. Modify the script to:
+    - Remove the parser version parameter.
+    - Add parameters for field terminator, quoted fields, and row terminators with the character code *0x0b*.
+    - Format the results as a single field containing the JSON row of data as an NVARCHAR(MAX) string.
+
+    ```sql
+    SELECT
+        TOP 100 *
+    FROM
+        OPENROWSET(
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
+            FORMAT = 'CSV',
+            FIELDTERMINATOR ='0x0b',
+            FIELDQUOTE = '0x0b',
+            ROWTERMINATOR = '0x0b'
+        ) WITH (doc NVARCHAR(MAX)) as rows
+    ```
+
+5. Run the modified code and observe that the results include a JSON document for each order.
+
+6. Modify the query as follows so that it uses the JSON_VALUE function to extract individual field values from the JSON data.
+
+    ```sql
+    SELECT JSON_VALUE(doc, '$.SalesOrderNumber') AS order_date,
+           JSON_VALUE(doc, '$.CustomerName') AS customer,
+           doc
+    FROM
+        OPENROWSET(
+            BULK 'https://datalakexxxxxxx.dfs.core.windows.net/files/sales/json/**',
+            FORMAT = 'CSV',
+            FIELDTERMINATOR ='0x0b',
+            FIELDQUOTE = '0x0b',
+            ROWTERMINATOR = '0x0b'
+        ) WITH (doc NVARCHAR(MAX)) as rows
+    ```
+
+7. Name your script **Sales JSON query**, and publish it. Then close the script pane.
 
 ## Create an external table
 
@@ -158,7 +260,7 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
     SELECT *
     FROM
         OPENROWSET(
-            BULK 'orders/*.csv',
+            BULK 'csv/*.csv',
             DATA_SOURCE = 'sales_data',
             FORMAT = 'CSV',
             PARSER_VERSION = '2.0'
@@ -195,7 +297,7 @@ So far, you've used the OPENROWSET function in a SELECT query to retrieve data f
     WITH
     (
         DATA_SOURCE =sales_data,
-        LOCATION = 'orders/*.csv',
+        LOCATION = 'csv/*.csv',
         FILE_FORMAT = CsvFormat
     );
     GO
