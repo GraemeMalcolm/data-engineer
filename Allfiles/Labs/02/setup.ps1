@@ -125,7 +125,7 @@ Get-ChildItem "./data/*.parquet" -File | Foreach-Object {
     Write-Host $_.Name
     $folder = $_.Name.Replace(".snappy.parquet", "")
     $file = $_.Name.Replace($folder, "orders")
-    $blobPath = "sales/parquet/$folder/$file"
+    $blobPath = "sales/parquet/year=$folder/$file"
     Set-AzStorageBlobContent -File $_.FullName -Container "files" -Blob $blobPath -Context $storageContext
 }
 
