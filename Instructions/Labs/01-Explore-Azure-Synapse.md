@@ -3,6 +3,7 @@ lab:
     title: 'Explore Azure Synapse Analytics'
     module: 'Module 1: Get Started with Data Engineering'
 ---
+{: .right }[en](./01-Explore-Azure-Synapse.md)
 
 # Explore Azure Synapse Analytics
 
