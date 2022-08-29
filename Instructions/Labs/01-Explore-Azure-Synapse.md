@@ -4,8 +4,8 @@ lab:
     module: 'Module 1: Get Started with Data Engineering'
 ---
 {: style="text-align: right" }
-[en](./01-Explore-Azure-Synapse.md)
-
+[en](./01-Explore-Azure-Synapse.md) |
+[de](https://www.bing.com/translator)
 
 
 # Explore Azure Synapse Analytics
