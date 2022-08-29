@@ -8,6 +8,7 @@ lab:
 [de](https://www.bing.com/translator)
 
 
+
 # Explore Azure Synapse Analytics
 
 Azure Synapse Analytics provides a single, consolidated data analytics platform for end-to end data analytics. In this lab, you'll explore various ways to ingest and explore data. This lab is designed as a high-level overview of the various core capabilities of Azure Synapse Analytics; which you'll explore in more depth in later labs.
