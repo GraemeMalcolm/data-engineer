@@ -6,8 +6,7 @@ lab:
 {: style="text-align: right" }
 [en](./01-Explore-Azure-Synapse.md) |
 [de](https://www.bing.com/translator)
-
-
+  
 
 # Explore Azure Synapse Analytics
 
