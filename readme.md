@@ -1,3 +1,3 @@
 # Data Engineering stuff
 
-Just som stuff I'm experimenting with!
+Just some stuff I'm experimenting with!
