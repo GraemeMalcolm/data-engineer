@@ -12,6 +12,7 @@ lab:
         - language:
             code: 'de'
             url: 'https://www.microsoft.com'
+
 ---
 
 # Explore Azure Synapse Analytics
