@@ -2,17 +2,6 @@
 lab:
     title: 'Explore Azure Synapse Analytics'
     module: 'Module 1: Get Started with Data Engineering'
-    languages:
-        - language:
-            code: 'en'
-            url: 'https://graememalcolm.github.io/data-engineer/Instructions/Labs/01-Explore-Azure-Synapse.html'
-        - language:
-            code: 'es'
-            url: 'https://www.bing.com'
-        - language:
-            code: 'de'
-            url: 'https://www.microsoft.com'
-
 ---
 
 # Explore Azure Synapse Analytics
