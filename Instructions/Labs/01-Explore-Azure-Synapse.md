@@ -346,7 +346,7 @@ So far you've seen some techniques for exploring and processing file-based data 
 
 9. Close the query pane, and then view the **Develop** page to verify that the SQL script has been saved.
 
-10. On the **Manage** page, select the **sql*xxxxxxx*** dedicated SQL pool and use its **&#5111B;** icon to pause it.
+10. On the **Manage** page, select the **sql*xxxxxxx*** dedicated SQL pool and use its **\|\|** icon to pause it.
 
 ## Explore data with a Data Explorer pool
 
