@@ -4,15 +4,13 @@ permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# Exercises
 
-Some stuff I'm experimenting with...
-
-## Labs
+Exercises for [icrosoft Learn](https://docs.microsoft.com/training/) training.
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
+| Exercise |
 | --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in labs  %}| [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
