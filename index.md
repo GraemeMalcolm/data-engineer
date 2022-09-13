@@ -4,9 +4,9 @@ permalink: index.html
 layout: home
 ---
 
-# Exercises
+# Microsoft Learn - Hands On Exercises
 
-Exercises for [Microsoft Learn](https://docs.microsoft.com/training/) training.
+The following hands-on exercises are designed to support [Microsoft Learn](https://docs.microsoft.com/training/) training.
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | |
