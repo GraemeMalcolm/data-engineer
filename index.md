@@ -6,7 +6,7 @@ layout: home
 
 # Exercises
 
-Exercises for [icrosoft Learn](https://docs.microsoft.com/training/) training.
+Exercises for [Microsoft Learn](https://docs.microsoft.com/training/) training.
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Exercise |
