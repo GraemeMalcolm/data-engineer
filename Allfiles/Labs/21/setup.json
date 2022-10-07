@@ -263,7 +263,7 @@
     {
         "type": "Microsoft.EventHub/namespaces/eventhubs",
         "apiVersion": "2022-01-01-preview",
-        "name": "[concat(parameters('eventNsName'), '/', parameters('eventHubName')]",
+        "name": "[concat(parameters('eventNsName'), '/', parameters('eventHubName'))]",
         "location": "[variables('location')]",
         "dependsOn": [
             "[resourceId('Microsoft.EventHub/namespaces', parameters('eventNsName'))]"
