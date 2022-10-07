@@ -3,10 +3,6 @@ lab:
     title: 'Explore Azure Synapse Analytics'
     module: 'Module 1: Get Started with Data Engineering'
 ---
-{: style="text-align: right" }
-[en](./01-Explore-Azure-Synapse.md) |
-[de](https://www.bing.com/translator)
-  
 
 # Explore Azure Synapse Analytics
 
@@ -350,7 +346,7 @@ So far you've seen some techniques for exploring and processing file-based data 
 
 9. Close the query pane, and then view the **Develop** page to verify that the SQL script has been saved.
 
-10. On the **Manage** page, select the **sql*xxxxxxx*** dedicated SQL pool and use its **||** icon to pause it.
+10. On the **Manage** page, select the **sql*xxxxxxx*** dedicated SQL pool and use its **\|\|** icon to pause it.
 
 ## Explore data with a Data Explorer pool
 
@@ -444,7 +440,7 @@ Azure Synapse Data Explorer provides a runtime that you can use to store and que
 
 11. Close the query pane, and then view the **Develop** page to verify that the KQL script has been saved.
 
-12. On the **Manage** page, select the **adx*xxxxxxx*** Data Explorer pool and use its **||** icon to pause it.
+12. On the **Manage** page, select the **adx*xxxxxxx*** Data Explorer pool and use its **\|\|** icon to pause it.
 
 ## Delete Azure resources
 
