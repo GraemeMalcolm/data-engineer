@@ -228,7 +228,7 @@
         "type": "Microsoft.EventHub/namespaces",
         "apiVersion": "2022-01-01-preview",
         "name": "[parameters('eventNsName')]",
-        "location": "East US",
+        "location": "[variables('location')]",
         "sku": {
             "name": "Basic",
             "tier": "Basic",
@@ -248,7 +248,7 @@
         "type": "Microsoft.EventHub/namespaces/AuthorizationRules",
         "apiVersion": "2022-01-01-preview",
         "name": "[concat(parameters('eventNsName'), '/RootManageSharedAccessKey')]",
-        "location": "East US",
+        "location": "[variables('location')]",
         "dependsOn": [
             "[resourceId('Microsoft.EventHub/namespaces', parameters('eventNsName'))]"
         ],
@@ -264,7 +264,7 @@
         "type": "Microsoft.EventHub/namespaces/eventhubs",
         "apiVersion": "2022-01-01-preview",
         "name": "[concat(parameters('eventNsName'), '/', parameters('eventHubName')]",
-        "location": "eastus",
+        "location": "[variables('location')]",
         "dependsOn": [
             "[resourceId('Microsoft.EventHub/namespaces', parameters('eventNsName'))]"
         ],
@@ -278,7 +278,7 @@
         "type": "Microsoft.EventHub/namespaces/networkRuleSets",
         "apiVersion": "2022-01-01-preview",
         "name": "[concat(parameters('eventNsName'), '/default')]",
-        "location": "East US",
+        "location": "[variables('location')]",
         "dependsOn": [
             "[resourceId('Microsoft.EventHub/namespaces', parameters('eventNsName'))]"
         ],
@@ -293,7 +293,7 @@
         "type": "Microsoft.EventHub/namespaces/eventhubs/consumergroups",
         "apiVersion": "2022-01-01-preview",
         "name": "[concat(parameters('eventNsName'), '/', parameters('eventHubName'), '/$Default')]",
-        "location": "eastus",
+        "location": "[variables('location')]",
         "dependsOn": [
             "[resourceId('Microsoft.EventHub/namespaces/eventhubs', parameters('eventNsName'), parameters('eventHubName')]",
             "[resourceId('Microsoft.EventHub/namespaces', parameters('eventNsName'))]"
@@ -304,7 +304,7 @@
         "type": "Microsoft.StreamAnalytics/streamingjobs",
         "apiVersion": "2021-10-01-preview",
         "name": "[parameters('streamJobName')]",
-        "location": "East US",
+        "location": "[variables('location')]",
         "sku": {
             "name": "Standard",
             "capacity": 1
