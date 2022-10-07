@@ -295,7 +295,7 @@
         "name": "[concat(parameters('eventNsName'), '/', parameters('eventHubName'), '/$Default')]",
         "location": "[variables('location')]",
         "dependsOn": [
-            "[resourceId('Microsoft.EventHub/namespaces/eventhubs', parameters('eventNsName'), parameters('eventHubName')]",
+            "[resourceId('Microsoft.EventHub/namespaces/eventhubs', parameters('eventNsName'), parameters('eventHubName'))]",
             "[resourceId('Microsoft.EventHub/namespaces', parameters('eventNsName'))]"
         ],
         "properties": {}
