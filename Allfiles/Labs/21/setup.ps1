@@ -164,8 +164,22 @@ $id = (Get-AzADServicePrincipal -DisplayName $synapseWorkspace).id
 New-AzRoleAssignment -Objectid $id -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 New-AzRoleAssignment -SignInName $userName -RoleDefinitionName "Storage Blob Data Owner" -Scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Storage/storageAccounts/$dataLakeAccountName" -ErrorAction SilentlyContinue;
 
+# Add code to create dedicated SQL table
+
 # Pause SQL Pool
 write-host "Pausing the $sqlDatabaseName SQL Pool..."
 Suspend-AzSynapseSqlPool -WorkspaceName $synapseWorkspace -Name $sqlDatabaseName -AsJob
+
+# Prepare JavaScript EventHub client app
+write-host "Creating Event Hub client app..."
+Update-AzConfig -DisplayBreakingChangeWarning $false | Out-Null
+$conStrings = Get-AzEventHubKey -ResourceGroupName $resourceGroupName -NamespaceName $eventNsName -AuthorizationRuleName "RootManageSharedAccessKey"
+$conString = $conStrings.PrimaryConnectionString
+$javascript = Get-Content -Path "sendmessage.txt" -Raw
+$javascript = $javascript.Replace("EVENTHUBCONNECTIONSTRING", $conString)
+$javascript = $javascript.Replace("EVENTHUBNAME",$eventHubName)
+Set-Content -Path "sendmessage.js" -Value $javascript
+
+npm install @azure/event-hubs | Out-Null
 
 write-host "Script completed at $(Get-Date)"
