@@ -85,19 +85,25 @@ $resourceGroupName = "dp000-$suffix"
 Write-Host "Finding an available region. This may take several minutes...";
 $delay = 0, 30, 60, 90, 120 | Get-Random
 Start-Sleep -Seconds $delay # random delay to stagger requests from multi-student classes
-#$preferred_list = "australiaeast","centralus","southcentralus","eastus2","northeurope","southeastasia","uksouth","westeurope","westus","westus2"
+
 $locations = Get-AzLocation | Where-Object {
     $_.Providers -contains "Microsoft.Synapse" -and
     $_.Providers -contains "Microsoft.Sql" -and
     $_.Providers -contains "Microsoft.Storage" -and
     $_.Providers -contains "Microsoft.Compute" -and
     $_.Providers -contains "Microsoft.EventHub" -and
-    $_.Providers -contains "Microsoft.StreamAnalytics" # -and
-    # $_.Location -in $preferred_list
+    $_.Providers -contains "Microsoft.StreamAnalytics"
 }
 $max_index = $locations.Count - 1
-$rand = (0..$max_index) | Get-Random
-$Region = $locations.Get($rand).Location
+# Start with preferred region if specified, otherwise choose one at random
+if ($args.count -gt 0 -And $args[0] -in $locations.Location)
+{
+    $Region = $args[0]
+}
+else {
+    $rand = (0..$max_index) | Get-Random
+    $Region = $locations.Get($rand).Location
+}
 
 # Test for subscription Azure SQL capacity constraints in randomly selected regions
 # (for some subsription types, quotas are adjusted dynamically based on capacity)
