@@ -144,7 +144,6 @@ $dataLakeAccountName = "datalake$suffix"
 $sqlDatabaseName = "sql$suffix"
 $eventNsName = "events$suffix"
 $eventHubName = "eventhub$suffix"
-$streamJobName = "stream$suffix"
 
 write-host "Creating Azure resources in $resourceGroupName resource group..."
 New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
@@ -158,7 +157,6 @@ New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
   -sqlPassword $sqlPassword `
   -eventNsName $eventNsName `
   -eventHubName $eventHubName `
-  -streamJobName $streamJobName `
   -Force
 
 # Make the current user and the Synapse service principal owners of the data lake blob store

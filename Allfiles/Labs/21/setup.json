@@ -49,12 +49,6 @@
         "metadata": {
           "description": "EventHub name"
         }
-      },
-      "streamJobName": {
-        "type": "String",
-        "metadata": {
-          "description": "Streaming Analytics job name"
-        }
       }
     },
     "variables": {
