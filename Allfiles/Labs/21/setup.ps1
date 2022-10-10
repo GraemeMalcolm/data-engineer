@@ -178,14 +178,13 @@ Suspend-AzSynapseSqlPool -WorkspaceName $synapseWorkspace -Name $sqlDatabaseName
 
 # Prepare JavaScript EventHub client app
 write-host "Creating Event Hub client app..."
+npm install @azure/event-hubs | Out-Null
 Update-AzConfig -DisplayBreakingChangeWarning $false | Out-Null
 $conStrings = Get-AzEventHubKey -ResourceGroupName $resourceGroupName -NamespaceName $eventNsName -AuthorizationRuleName "RootManageSharedAccessKey"
 $conString = $conStrings.PrimaryConnectionString
-$javascript = Get-Content -Path "sendmessage.txt" -Raw
+$javascript = Get-Content -Path "setup.txt" -Raw
 $javascript = $javascript.Replace("EVENTHUBCONNECTIONSTRING", $conString)
 $javascript = $javascript.Replace("EVENTHUBNAME",$eventHubName)
-Set-Content -Path "sendmessage.js" -Value $javascript
-
-npm install @azure/event-hubs | Out-Null
+Set-Content -Path "orderclient.js" -Value $javascript
 
 write-host "Script completed at $(Get-Date)"
